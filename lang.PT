@@ -1,0 +1,773 @@
+[connection]
+MESSAGE_ERROR_WRONG_NAME_FORMAT = {ERROR}O seu nome está no formato incorreto Nome_Sobrenome.
+MESSAGE_WARNING_IP = {WARNING}O seu endereço IP não é o mesmo da tua última conexão.
+
+MESSAGE_INFO_SPAWN_NEW_USER = {SUCCESS}* Bem-vindo %s, esperamos que te divirtas no servidor, utiliza /ajuda para obter ajuda sobre o servidor.
+MESSAGE_INFO_SPAWN = {SUCCESS} * Bem-vindo novamente %s, te vimos pela última vez em %s.
+
+MESSAGE_ERROR_INDEX = {ERROR}Não foi possível carregar sua última posição devido a um erro interno do servidor.
+
+[register]
+DIALOG_REGISTER_LANG_CAPTION = Selecione o seu idioma
+DIALOG_REGISTER_LANG_BODY = %s
+DIALOG_REGISTER_LANG_YES = Continuar
+DIALOG_REGISTER_LANG_NO = Sair
+
+DIALOG_REGISTER_PASSWD_CAPTION = Registre sua conta
+DIALOG_REGISTER_PASSWD_BODY_1 = Digite uma senha que você vai lembrar-se.\n
+DIALOG_REGISTER_PASSWD_BODY_2 = A senha deve ser segura e deve conter entre %d e %d carateres.\n\n
+DIALOG_REGISTER_PASSWD_BODY_3 = Não partilhes a senha com ninguém!
+DIALOG_REGISTER_PASSWD_YES = Continuar
+DIALOG_REGISTER_PASSWD_NO = Sair
+MESSAGE_ERROR_WRONG_REG_PASSWD = {ERROR}A senha não cumpre com o formato recomendado.
+
+DIALOG_REGISTER_REPASSWD_CAPTION = Registre sua conta
+DIALOG_REGISTER_REPASSWD_BODY = Volte a introduzir a senha.\nAs senhas devem coincidir.
+DIALOG_REGISTER_REPASSWD_YES = Continuar
+DIALOG_REGISTER_REPASSWD_NO = Voltar
+MESSAGE_ERROR_WRONG_REG_REPASSWD = {ERROR}As senhas não coincidem.
+
+DIALOG_REGISTER_MAIL_CAPTION = Digite o seu e-mail
+DIALOG_REGISTER_MAIL_BODY = Digite o seu endereço eletrónico.\nEste será o único metodo para recuperar a sua senha.
+DIALOG_REGISTER_MAIL_YES = Continuar
+DIALOG_REGISTER_MAIL_NO = Sair
+MESSAGE_ERROR_WRONG_MAIL_FORMAT = {ERROR}Formato inválido.
+MESSAGE_WARNING_EMAIL_EXISTS = {WARNING}Este endereço eletrónico está em uso.
+
+MESSAGE_INFO_REGISTER = {INFO}Para continuar, clique em continuar.
+
+[login]
+DIALOG_LOGIN_CAPTION = Entrar
+DIALOG_LOGIN_BODY = Bem-vindo novamente, %s.\nDigite sua senha para entrar.
+DIALOG_LOGIN_YES = Continuar
+DIALOG_LOGIN_NO = Sair
+MESSAGE_ERROR_WRONG_LOGIN = {ERROR}Senha incorreta. Tentativa %d/%d, se falhares todas as tentativas serás bloqueado por %d minutos.
+
+[commands_control]
+MESSAGE_ERROR_NOT_SPAWNED = {ERROR}Agora não podes usar comandos.
+MESSAGE_ERROR_NOT_ALLOWED = {ERROR}Não tens permissão para usar este comando.
+MESSAGE_ERROR_UNDEFINED_COMMAND = {ERROR}O comando %s não existe.
+
+[afk]
+MESSAGE_INFO_AFK_DAYS = {INFO}Estiveste em pausa durante %d dias, %d horas e %d minutos.
+MESSAGE_INFO_AFK_HOURS = {INFO}Estiveste em pausa durante %d horas e %d minutos.
+MESSAGE_INFO_AFK_MINUTES = {INFO}Estiveste em pausa durante %d minutos e %d segundos.
+MESSAGE_INFO_AFK_SECONDS = {INFO}Estiveste em pausa durante %d segundos.
+
+[area_action_key]
+GAMETEXT_INFO_CLOSED = ~r~cerrado
+MESSAGE_ERROR_PROPERTY_LT_MINUTES = {ERROR}Tens de esperar %d minutos e %d segundos para voltar a fazer uma visita.
+MESSAGE_ERROR_PROPERTY_LT_SECONDS = {ERROR}Tens de esperar %d segundos para voltar a fazer uma visita.
+
+[hospital]
+MESSAGE_INFO_HOSPITAL_MONEY = {INFO}Fostes levado ao hospital mais perto, o custo para os serviços médicos é de %d$.
+MESSAGE_INFO_HOSPITAL = {INFO}Fostes levado para o hospital mais perto.
+MESSAGE_INFO_HOSPITAL_BED = {INFO}Podes usar as camas do hospital para se curar.
+MESSAGE_ERROR_BED_IN_USE = {ERROR}Esta cama está sendo usada por outra pessoa.
+MESSAGE_INFO_BED = {INFO}Espere enquanto você se cura, para ir embora pressione F ou ENTER.
+MESSAGE_ERROR_GOOD_HEALTH = {ERROR}O seu estado é bom, não precisa de se curar.
+GAMETEXT_INFO_CURED = ~g~curado
+MESSAGE_INFO_BED_DISTANCE = {INFO}Não saia da cama enquanto se cura, se quer ir embora pressione F ou ENTER.
+
+[disconnect_message]
+MESSAGE_INFO_DISCONNECT_CRASH = {INFO}%s se desconectou (crash).
+MESSAGE_INFO_DISCONNECT_QUIT = {INFO}%s se desconectou.
+MESSAGE_INFO_DISCONNECT_KICK = {INFO}%s se desconectou (kick/ban).
+
+[atm]
+DIALOG_ATM_DEPOSIT_CAPTION = Depositar dinheiro
+DIALOG_ATM_DEPOSIT_BODY = Tens %d$ em mãos, quanto queres depositar?
+DIALOG_ATM_DEPOSIT_YES = Depositar
+DIALOG_ATM_DEPOSIT_NO = Voltar
+
+DIALOG_ATM_WITHDRAW_CAPTION = Retirar dinheiro
+DIALOG_ATM_WITHDRAW_BODY = Tens %d$ na tua conta bancária, quanto queres retirar?
+DIALOG_ATM_WITHDRAW_YES = Retirar
+DIALOG_ATM_WITHDRAW_NO = Voltar
+
+MESSAGE_ERROR_WRONG_FORMAT = {ERROR}Deves introduzir um valor numérico inteiro.
+MESSAGE_ERROR_NEGATIVE = {ERROR}Deves introduzir um valor positivo.
+MESSAGE_ERROR_NOMONEY = {ERROR}Não tens %d$ em mãos para depositar.
+MESSAGE_ERROR_NOBANKMONEY = {ERROR}Não tens %d$ na tua conta para retirar.
+MESSAGE_ERROR_MAX_TRANSACTION = {ERROR}As caixas eletrônicas têm um limite de %d$ por transação.
+MESSAGE_INFO_DEPOSIT = {INFO}Depositou %d$ na sua conta bancária.
+MESSAGE_INFO_WITHDRAW = {INFO}Retirou %d$ da sua conta bancária.
+
+[bank]
+DIALOG_BANK_POINT_CAPTION = Banco
+DIALOG_BANK_POINT_BODY = - Retirar\n- Depositar\n- Transferir\n- Movimentos
+DIALOG_BANK_POINT_YES = Continuar
+DIALOG_BANK_POINT_NO = Sair
+
+DIALOG_BANK_WITHDRAW_CAPTION = Retirar dinheiro
+DIALOG_BANK_WITHDRAW_BODY = Tens %d$ na tua conta bancária, quanto queres retirar?
+DIALOG_BANK_WITHDRAW_YES = Retirar
+DIALOG_BANK_WITHDRAW_NO = Voltar
+
+DIALOG_BANK_DEPOSIT_CAPTION = Depositar dinheiro
+DIALOG_BANK_DEPOSIT_BODY = Tens %d$ em mãos, quanto queres depositar?
+DIALOG_BANK_DEPOSIT_YES = Depositar
+DIALOG_BANK_DEPOSIT_NO = Voltar
+
+DIALOG_BANK_TRANSFER_CAPTION = Transferir dinheiro
+DIALOG_BANK_TRANSFER_BODY = Quanto dinheiro queres transferir?\nTens %d$ na tua conta bancária.
+DIALOG_BANK_TRANSFER_YES = Continuar
+DIALOG_BANK_TRANSFER_NO = Voltar
+
+DIALOG_BANK_TRANSFER_NAME_CAPTION = Transferir dinheiro
+DIALOG_BANK_TRANSFER_NAME_BODY = Certo, queres transferir %d$.\nPara quem queres transferir? Digite o nome completo.
+DIALOG_BANK_TRANSFER_NAME_YES = Continuar
+DIALOG_BANK_TRANSFER_NAME_NO = Voltar
+MESSAGE_ERROR_TRANSFER_WRONG_FORMAT = {ERROR}Deves introduzir o nome da pessoa que queres transferir o dinheiro.
+MESSAGE_ERROR_TRANSFER_WRONG_NAME = {ERROR}O nome '%s' não está registrado no nosso banco de dados.
+
+DIALOG_BANK_TRANSFER_CONFIRM_CAPTION = Transferir dinheiro
+DIALOG_BANK_TRANSFER_CONFIRM_BODY = Beneficiario: %s\nQuantidade: %d$\n\nQueres realizar a transferência?
+DIALOG_BANK_TRANSFER_CONFIRM_YES = Transferir
+DIALOG_BANK_TRANSFER_CONFIRM_NO = Voltar
+
+MESSAGE_ERROR_WRONG_FORMAT = {ERROR}Deves introduzir um valor numérico inteiro.
+MESSAGE_ERROR_NEGATIVE = {ERROR}Deves introduzir um valor positivo.
+MESSAGE_ERROR_NOMONEY = {ERROR}Não tens %d$ em mãos para depositá-los.
+MESSAGE_ERROR_NOBANKMONEY = {ERROR}Não tens %d$ na tua conta bancária.
+MESSAGE_ERROR_MAX_TRANSACTION = {ERROR}As caixas eletrônicas têm um limite de %d$ por transação.
+MESSAGE_INFO_DEPOSIT = {INFO}Depositou %d$ na sua conta bancária.
+MESSAGE_INFO_WITHDRAW = {INFO}Retirou %d$ na sua conta bancária.
+MESSAGE_INFO_TRANSFER = {INFO}Transferiu %d$ para a conta bancária de %s.
+MESSAGE_INFO_GOTTRANSFER = {INFO}Recebeu uma transferência de %s de %d$.
+MESSAGE_ERROR_NO_MOVEMENTS = {ERROR}Não há movimentos na sua conta bancária.
+
+[veh_shop_sunshine]
+DIALOG_SELECT_OPTION_CAPTION = Concessionária
+DIALOG_SELECT_OPTION_BODY = Ver catálogo de veículos novos\nVender um veículo
+DIALOG_SELECT_OPTION_YES = >>
+DIALOG_SELECT_OPTION_NO = Fechar
+
+DIALOG_SVEH_INFO_CAPTION = Comprar veículo
+DIALOG_SVEH_INFO_BODY = Veículo: %s\nPreço: %d$\nNivel requerido: %d\n\nVelocidade máxima: %dKm/h\nCapacidade depósito: %.0fL\nAssentos: %d\n\nQueres comprar este veículo?
+DIALOG_SVEH_INFO_YES = Comprar
+DIALOG_SVEH_INFO_NO = Cancelar
+
+MESSAGE_ERROR_NO_MONEY = {ERROR}Faltam %d$ para você poder comprar este veículo.
+MESSAGE_ERROR_NO_LEVEL = {ERROR}Necessitas ser no mínimo nível %d para poder comprar este veículo.
+MESSAGE_ERROR_MAX_VEHS = {ERROR}Não tens ter mais veículo, o limite é de %d veículos por jogador.
+MESSAGE_ERROR_INV_SLOT = {ERROR}Não tens espaço no inventário para as chaves do veículo.
+MESSAGE_ERROR_NO_LICENSE = {ERROR}Necessitas de licença de direção para comprar este veículo.
+
+DIALOG_SELL_CONFIRM_CAPTION = Vender veículo
+DIALOG_SELL_CONFIRM_BODY = Veículo: %s\nMatrícula: %s\nReceberás: %d$\nQueres vender este veículo?
+DIALOG_SELL_CONFIRM_YES = Vender
+DIALOG_SELL_CONFIRM_NO = Cancelar
+
+MESSAGE_ERROR_VEHICLE_SELL = {ERROR}Neste momento não necessitamos de veículos, volte outro dia.
+MESSAGE_ERROR_NO_VEHICLES = {ERROR}Não tens nenhum veículo.
+MESSAGE_ERROR_VEHICLE_STATE = {ERROR}Não podes vender este veículo neste momento.
+MESSAGE_ERROR_VEHICLE_AREA = {ERROR}O veículo tem de estar perto da concessionária para vender-lo.
+GAMETEXT_INFO_VEHICLE_SOLD = ~g~vendido
+
+DIALOG_BUY_VEHICLE_INFO_CAPTION = Veículo usado
+DIALOG_BUY_VEHICLE_INFO_BODY = Veículo: %s\nKMS: %.0f\nPreço: %d$\nNivel requerido: %d
+DIALOG_BUY_VEHICLE_INFO_YES = Comprar
+DIALOG_BUY_VEHICLE_INFO_NO = Cancelar
+GAMETEXT_INFO_VEHICLE_BOUGHT = ~g~comprado
+
+[nears_players]
+MESSAGE_ERROR_NO_NEAR_PLAYERS = {ERROR}Não há jogadores perto.
+MESSAGE_ERROR_SELECTED_PLAYER_GONE = {ERROR}O jogador já não está disponível.
+
+[inv]
+DIALOG_DELETE_ITEM_CAPTION = Eliminar objeto
+DIALOG_DELETE_ITEM_BODY = Tens a certeza que queres eliminar este objeto do teu inventário?\nEsta opção é irreversível.
+DIALOG_DELETE_ITEM_YES = Eliminar
+DIALOG_DELETE_ITEM_NO = Cancelar
+GAMETEXT_INFO_ITEM_DELETE = ~r~eliminado
+
+DIALOG_GIVE_ITEM_CAPTION = Inventario
+DIALOG_GIVE_ITEM_BODY = De: %s (%d)\nObjeto: %s
+DIALOG_GIVE_ITEM_YES = Aceitar
+DIALOG_GIVE_ITEM_NO = Recusar
+MESSAGE_ERROR_GIVE_DISCONNECTED = {ERROR}O jogador se desconectou.
+MESSAGE_ERROR_GIVE_PLAYER_AFK = {ERROR}O jogador está pausado.
+MESSAGE_ERROR_SELECTED_PLAYER_GONE = {ERROR}O jogador já não está disponível.
+MESSAGE_ERROR_GIVE_ERROR_PLAYER = {ERROR}Não foi possível realizar esta ação, é possível que não tenhas espaço no inventário.
+MESSAGE_ERROR_GIVE_ERROR = {ERROR}Não foi possível realizar esta ação, é possível que a pessoa não tenha espaço no inventário.
+MESSAGE_ERROR_GIVE_ERROR_ID = {ERROR}Erro, o objeto mudou.
+MESSAGE_INFO_GIVE_WAIT = {INFO}Aguarde até que %s aceite ou recuse a oferta.
+MESSAGE_INFO_GIVE_PLAYER = {INFO}%s te deu '%s'.
+MESSAGE_INFO_GIVE = {INFO}Você deu '%s' a %s.
+MESSAGE_INFO_GIVE_REJECT = {INFO}%s recusou a oferta.
+MESSAGE_INFO_MOVE = {INFO}Selecione agora a posição do objeto onde o queres mover.
+
+MESSAGE_ERROR_PLAYER_INV_DISABLED = {ERROR}Este jogador está fazendo um acordo com outro jogador.
+MESSAGE_ERROR_INV_DISABLED = {ERROR}Não podes abrir o inventário até que termines o acordo com %s (%d).
+
+MESSAGE_ERROR_NO_FUEL = {ERROR}O veículo não tem gasolina.
+GAMETEXT_INFO_VEHICLE_OPENED = ~g~aberto
+GAMETEXT_INFO_VEHICLE_CLOSED = ~r~fechado
+GAMETEXT_INFO_VEHICLE_STARTED = ~g~ligado
+GAMETEXT_INFO_VEHICLE_STOPPED = ~r~desligado
+
+MESSAGE_ERROR_NO_MONEY = {ERROR}Não tens %d$ para retirar o veículo.
+DIALOG_VEHICLE_POUND_CAPTION = Veículo
+DIALOG_VEHICLE_POUND_BODY = O teu veículo está no depósito municipal.\nDeves pagar %d$ para poder retirar o teu veículo.
+DIALOG_VEHICLE_POUND_YES = Pagar
+DIALOG_VEHICLE_POUND_NO = Cancelar
+
+MESSAGE_INFO_ITEM_SHOWN = {INFO}Você mostrou o seu %s a %s.
+MESSAGE_INFO_ITEM_SHOW = {INFO}%s mostra seu %s.
+DIALOG_SHOW_ITEM_CAPTION = Inventario
+DIALOG_SHOW_ITEM_BODY = %s de %s\n%s
+DIALOG_SHOW_ITEM_YES = Fechar
+
+GAMETEXT_INFO_DOOR_OPENED = ~g~aberta
+GAMETEXT_INFO_DOOR_CLOSED = ~r~fechada
+
+MESSAGE_ERROR_TOYS_FULL = {ERROR}Não podes colocar mais acessórios.
+MESSAGE_ERROR_TOY_NOT_ATTACHED = {ERROR}O acessório não está colocado.
+
+MESSAGE_ERROR_WEAPON_MAX = {ERROR}Só podes levar %d armas em mãos, guarda alguma primeiro.
+
+MESSAGE_ERROR_FOOD_LIMIT = {ERROR}Espera terminar de comer para voltar a comer.
+MESSAGE_ERROR_FOOD_VOMIT = {ERROR}Já comeu demasiado, aguarde um pouco.
+MESSAGE_ERROR_DRINK_LIMIT = {ERROR}Espera terminar de beber para voltar a beber.
+MESSAGE_ERROR_DRINK = {ERROR}Não tens sede.
+
+[vehicle_funcs]
+MESSAGE_ERROR_NO_DRIVING = {ERROR}Não estás a dirigir um veículo.
+MESSAGE_ERROR_INVALID_VEHICLE_ID = {ERROR}Não estás próximo ou dentro de um veículo.
+MESSAGE_ERROR_NO_DOORS = {ERROR}Este veículo não tem trava.
+MESSAGE_ERROR_NO_ENGINE = {ERROR}Este veículo não tem motor.
+MESSAGE_ERROR_NO_KEY = {ERROR}Não tens as chaves deste veículo.
+MESSAGE_ERROR_NO_ACCESS = {ERROR}Não tens acesso a este veículo.
+MESSAGE_ERROR_NO_FUEL = {ERROR}O veículo não tem gasolina.
+MESSAGE_ERROR_NO_RADIO = {ERROR}Este veículo não tem rádio.
+GAMETEXT_INFO_VEHICLE_OPENED = ~g~aberto
+GAMETEXT_INFO_VEHICLE_CLOSED = ~r~fechado
+GAMETEXT_INFO_VEHICLE_STARTED = ~g~ligado
+GAMETEXT_INFO_VEHICLE_STOPPED = ~r~desligado
+GAMETEXT_INFO_VEHICLE_LIGHTS_ON = ~g~luzes ligadas
+GAMETEXT_INFO_VEHICLE_LIGHTS_OFF = ~r~luzes desligadas
+GAMETEXT_INFO_NO_FUEL = ~r~sem gasolina
+
+DIALOG_VEHICLE_POUND_CAPTION = Veículo
+DIALOG_VEHICLE_POUND_BODY = O teu veículo está no depósito municipal.\nDeves pagar %d$ para retirar o teu veículo.
+DIALOG_VEHICLE_POUND_YES = Pagar
+DIALOG_VEHICLE_POUND_NO = Cancelar
+MESSAGE_ERROR_NO_MONEY = {ERROR}Não tens %d$ para poder retirar o veículo.
+
+[gas_station]
+MESSAGE_ERROR_ENGINE_ON = {ERROR}Desliga o motor do veículo.
+MESSAGE_ERROR_MAX_FUEL = {ERROR}Já tens o máximo de gasolina.
+MESSAGE_ERROR_NO_MONEY = {ERROR}Não tens dinheiro suficiente.
+MESSAGE_INFO_FUEL = {INFO}Aguarde enquanto você abastece.
+GAMETEXT_INFO_FUELING = ~y~abastecendo_~p~%.0fL/%.0fL
+GAMETEXT_INFO_FUELED = ~g~cheio_~p~%.0fL/%.0fL
+
+[vc_mdlpreview]
+MESSAGE_ERROR_DB_ERROR = {ERROR}Não é possível carregar, problema de banco de dados (vc_map).
+MESSAGE_INFO_QUIT = {INFO}Volte a usar este comando novamente para sair desse modo.
+MESSAGE_INFO_FILTER_ON = {INFO}Filtro ativado, agora ele será passado para aqueles do tipo null.
+MESSAGE_INFO_FILTER_OFF = {INFO}Filtro desativado, agora será passado normalmente.
+
+DIALOG_MODELID_CAPTION = Indique o modelid
+DIALOG_MODELID_BODY = Digite o modelid:
+DIALOG_MODELID_YES = Ir
+DIALOG_MODELID_NO = Fechar
+MESSAGE_ERROR_WRONG_MODELID_FORMAT = {ERROR}Formato de modelid inválido.
+MESSAGE_ERROR_NO_MODELID_FOUND = {ERROR}Este modelid não foi encontrado no banco de dados.
+
+DIALOG_OBJECT_TYPE_CAPTION = Selecione o tipo de objetos
+DIALOG_OBJECT_TYPE_BODY = %s
+DIALOG_OBJECT_TYPE_YES = Estabelecer
+DIALOG_OBJECT_TYPE_NO = Cancelar
+
+[driving_school]
+MESSAGE_ERROR_INV_SLOT = {ERROR}Não tens espaço no inventário para guardar a licença.
+MESSAGE_ERROR_HAVE_LICENSE = {ERROR}Já tens licença de direção.
+MESSAGE_ERROR_NO_MONEY = {ERROR}Não tens dinheiro suficiente para pagar a licença.
+
+DIALOG_LICENSE_INFO_CAPTION = Exame teórico
+DIALOG_LICENSE_INFO_BODY_1 = Este exame tem um custo de %d$.\n
+DIALOG_LICENSE_INFO_BODY_2 = Se você passar terá que fazer um exame prático para obter a licença.\n
+DIALOG_LICENSE_INFO_BODY_3 = Se você suspender, terá que repetir o teste novamente.
+DIALOG_LICENSE_INFO_YES = Começar
+DIALOG_LICENSE_INFO_NO = Sair
+
+MESSAGE_ERROR_LICENSE_TEST = {ERROR}Não conseguiu passar no exame.
+GAMETEXT_INFO_LICENSE_TEST = ~g~exame passado
+GAMETEXT_INFO_LICENSE_PASSED = ~g~licenca obtida
+
+MESSAGE_INFO_VEHICLE_LICENSE = {INFO}Entre no veículo para continuar com a prova prática.
+
+[chat]
+MESSAGE_CHAT = {CHAT}%s diz: %s
+MESSAGE_CHAT_DRUNK = {CHAT}%s diz (bêbado): %s
+MESSAGE_CHAT_PHONE = {CHAT}%s diz (celular): %s
+
+[actions]
+MESSAGE_ACTION_OPEN_VEHICLE = {ACTION}* %s abre o veículo (%s)
+MESSAGE_ACTION_CLOSE_VEHICLE = {ACTION}* %s fecha o veículo (%s)
+MESSAGE_ACTION_START_VEHICLE = {ACTION}* %s liga o veículo (%s)
+MESSAGE_ACTION_STOP_VEHICLE = {ACTION}* %s desliga o veículo (%s)
+MESSAGE_ACTION_INV_GIVE = {ACTION}* %s oferece o seu %s a %s
+MESSAGE_ACTION_INV_SHOW = {ACTION}* %s mostra o seu %s a %s
+MESSAGE_ACTION_INV_DELETE = {ACTION}* %s retira o seu %s
+MESSAGE_ACTION_HOSPITAL_BED = {ACTION}* %s se joga na cama
+MESSAGE_ACTION_ATM_WITHDRAW = {ACTION}* %s retira dinheiro da caixa
+MESSAGE_ACTION_ATM_DEPOSIT = {ACTION}* %s insere dinheiro na caixa
+MESSAGE_ACTION_LIGHTS_VEHICLE_ON = {ACTION}* %s liga as luzes do veículo (%s)
+MESSAGE_ACTION_LIGHTS_VEHICLE_OFF = {ACTION}* %s desliga as luzes do veículo (%s)
+MESSAGE_ACTION_OPEN_PDOOR = {ACTION}* %s abre a porta da propriedade
+MESSAGE_ACTION_CLOSE_PDOOR = {ACTION}* %s fecha a porta da propriedade
+MESSAGE_ACTION_CARRY_WEAPON = {ACTION}* %s retira uma arma (%s)
+MESSAGE_ACTION_UNCARRY_WEAPON = {ACTION}* %s guarda uma arma (%s)
+MESSAGE_ACTION_OPEN_GPS = {ACTION}* %s usa o GPS
+MESSAGE_ACTION_CLOSE_GPS = {ACTION}* %s guarda o GPS
+MESSAGE_ACTION_OPEN_PHONE = {ACTION}* %s usa o celular
+MESSAGE_ACTION_CLOSE_PHONE = {ACTION}* %s guarda o celular
+MESSAGE_ACTION_TOY_ATTACH = {ACTION}* %s coloca um acessório (%s)
+MESSAGE_ACTION_TOY_REMOVE = {ACTION}* %s retira um acessório (%s)
+MESSAGE_ACTION_EAT = {ACTION}* %s come (%s)
+MESSAGE_ACTION_DRINK = {ACTION}* %s bebe (%s)
+MESSAGE_ACTION_CLOTHES_CHANGE = {ACTION}* %s muda de roupa
+MESSAGE_ACTION_CLOTHES_DELETE = {ACTION}* %s joga a roupa fora
+MESSAGE_ACTION_GPS_TAXI_SHOW = {ACTION}* %s mostra o GPS ao taxista %s
+MESSAGE_ACTION_WATCH = {ACTION}* %s verifica a hora no relógio
+MESSAGE_ACTION_ACTION = {ACTION}* %s %s
+MESSAGE_ACTION_DO = {ADFF2F}* %s (( %s ))
+MESSAGE_ACTION_BCHANNEL = {FFFFFF}%s (%d): (( %s ))
+MESSAGE_ERROR_SYNTAX = {ERROR}A syntax não é válida.
+
+[menu]
+DIALOG_SETTINGS_CAPTION = Configurações
+DIALOG_SETTINGS_BODY_1 = Idioma\t%s\n
+DIALOG_SETTINGS_BODY_2 = Resolução da tela\t%d/%d\n
+DIALOG_SETTINGS_BODY_3 = Mudar de roupa (skin)\n
+DIALOG_SETTINGS_BODY_4 = Canal de dúvidas\t%d\n
+DIALOG_SETTINGS_BODY_5 = Mensagens administrativos\t%d\n
+DIALOG_SETTINGS_YES = Confirmar
+DIALOG_SETTINGS_NO = Voltar
+
+DIALOG_LANG_CAPTION = Selecione o idioma
+DIALOG_LANG_BODY = %s
+DIALOG_LANG_YES = Confirmar
+DIALOG_LANG_NO = Sair
+GAMETEXT_INFO_LANG_CHANGED = ~g~idioma alterado
+
+DIALOG_AR_CAPTION = Resolução da tela
+DIALOG_AR_BODY = Digite sua resolução de tela em GTA:SA para\ncalcular sua resolução de aspeto.\nPor exemplo: 1920, 1080
+DIALOG_AR_YES = Confirmar
+DIALOG_AR_NO = Voltar
+MESSAGE_ERROR_WRONG_FORMAT = {ERROR}Formato inválido.
+GAMETEXT_INFO_AR_RESTART = reinicie o jogo para que as alterações entrem em vigor
+
+DIALOG_INFO_CAPTION = Informação
+DIALOG_INFO_BODY = Ver introdução\nAjuda
+DIALOG_INFO_YES = Continuar
+DIALOG_INFO_NO = Sair
+
+[rent_vehicles]
+MESSAGE_ERROR_INV_SLOT = {ERROR}Não tens espaço no teu inventário para as chaves do veículo.
+MESSAGE_ERROR_NO_LICENSE = {ERROR}Você precisa de uma licença de direção para alugar um veículo.
+MESSAGE_ERROR_VEHICLE_RENTED = {ERROR}Você já tem um veículo alugado, livre-se das chaves do seu inventário.
+MESSAGE_ERROR_NO_MONEY = {ERROR}Você precisa de %d$ para poder alugar este veículo.
+MESSAGE_ERROR_NO_LEVEL = {ERROR}Você precisa no mínimo nível %d para poder alugar este veículo.
+
+DIALOG_RENT_VEHICLE_CAPTION = Alugar veículo
+DIALOG_RENT_VEHICLE_BODY_1 = Veículo que vais alugar: %s\nPreço: %d$\n\n
+DIALOG_RENT_VEHICLE_BODY_2 = Você pode usar este veículo até que o abandone\npor bastante tempo ou remova as chaves do inventário.
+DIALOG_RENT_VEHICLE_YES = Alugar
+DIALOG_RENT_VEHICLE_NO = Cancelar
+GAMETEXT_INFO_VEHICLE_RENTED = ~g~veiculo alugado
+
+[shared_commands]
+MESSAGE_ERROR_POSITION = {ERROR}Você não está no lugar adequado.
+MESSAGE_ERROR_NO_PKEYS = {ERROR}Você não tem as chaves desta propriedade.
+MESSAGE_ERROR_NO_PSELL = {ERROR}Esta propriedade não está a venda.
+GAMETEXT_INFO_PROPERTY_PURCHASED = ~g~propiedade comprada
+GAMETEXT_INFO_DOOR_OPENED = ~g~aberta
+GAMETEXT_INFO_DOOR_CLOSED = ~r~fechada
+MESSAGE_ERROR_P_INV_SLOT = {ERROR}Não tens espaço no teu inventário para as chaves da propriedade.
+MESSAGE_ERROR_P_NO_MONEY = {ERROR}Não tens dinheiro suficiente para comprar esta propriedade.
+MESSAGE_ERROR_P_NO_LEVEL = {ERROR}Você precisa no mínimo nível %d para poder comprar esta propiedade.
+MESSAGE_ERROR_MAX_PROP = {ERROR}Você não pode ter mais propriedades, o limite é de %d propiedades por jogador.
+MESSAGE_ERROR_PROPERTY_RENTED = {ERROR}Já tens uma propriedade alugada, livre-se das chaves do seu inventário.
+MESSAGE_ERROR_PROPERTY_RENTED_DAYS = {ERROR}A propriedade já está alugada para o máximo de dias possíveis.
+
+MESSAGE_ERROR_NO_BSELL = {ERROR}Esta empresa não está a venda.
+MESSAGE_ERROR_B_INV_SLOT = {ERROR}Não tens espaço no teu inventário para as chaves da empresa.
+MESSAGE_ERROR_B_NO_MONEY = {ERROR}Não tens dinheiro suficiente para poder comprar a empresa.
+MESSAGE_ERROR_B_NO_LEVEL = {ERROR}Necessitas ser nível %d para poder comprar esta empresa.
+MESSAGE_ERROR_MAX_BIZZ = {ERROR}Você não pode ter mais empresas, o limite é de %d empresas por jogador.
+GAMETEXT_INFO_BUSINESS_PURCHASED = ~g~empresa comprada
+MESSAGE_ERROR_NO_BKEYS = {ERROR}Não tens as chaves desta empresa.
+
+DIALOG_RENT_PROPERTY_CAPTION = Alugar propriedade
+DIALOG_RENT_PROPERTY_BODY = Preço por dia: %d$\nDurante quantos dias queres alugar esta propriedade?\n\nMínimo: %d dia(s), máximo: %d dia(s)
+DIALOG_RENT_PROPERTY_YES = Alugar
+DIALOG_RENT_PROPERTY_NO = Cancelar
+MESSAGE_ERROR_PRENT_DAYS = {ERROR}Quantidade de dias inválida.
+MESSAGE_ERROR_FORMAT = {ERROR}Formato inválido.
+MESSAGE_ERROR_PRENT_NO_MONEY = {ERROR}Necessitas %d$ para alugar esta propriedade durante %d dia(s).
+GAMETEXT_INFO_PROPERTY_RENTED = ~g~propiedade alugada
+
+DIALOG_RENT_ADD_PROPERTY_CAPTION = Renovar aluguel
+DIALOG_RENT_ADD_PROPERTY_BODY = O aluguel expira em %d dia(s)\nPreço por dia: %d$\nQuantos dias quer ampliar o aluguel?\n\nMínimo: %d dia(s), máximo: %d dia(s)
+DIALOG_RENT_ADD_PROPERTY_YES = Ampliar
+DIALOG_RENT_ADD_PROPERTY_NO = Cancelar
+GAMETEXT_INFO_PROPERTY_RENT_ADD = ~g~aluguel ampliado
+
+MESSAGE_ERROR_COMMAND = {ERROR}Você não pode usar este comando neste momento.
+MESSAGE_ERROR_RESPOND_CSYNTAX = {ERROR}O uso deste comando é /responder [ID].
+MESSAGE_ERROR_PDISCONNECTED = {ERROR}O jogador não está conectado
+
+MESSAGE_ERROR_NO_TAXI_REQUEST = {ERROR}Este jogador não solicitou um táxi ou este pedido já foi respondido.
+MESSAGE_WARNING_TAXI_RESPONSE = {WARNING}O taxista %s respondeu ao seu chamado e está a caminho.
+MESSAGE_INFO_TAXI_RESPONSE = {INFO}Você notificou o cliente que está a ir buscar-lo.
+MESSAGE_ERROR_ALREADY_TAXI_JOB = {ERROR}Você já está com um cliente.
+
+[gps]
+MESSAGE_ERROR_NO_GPS = {ERROR}Não tens GPS.
+MESSAGE_ERROR_NO_ROUTE = {ERROR}Não há rota.
+MESSAGE_INFO_ROUTE_CANCELED = {INFO}Rota cancelada.
+MESSAGE_ERROR_DS_ROUTE = {ERROR}Você não pode cancelar esta rota.
+MESSAGE_ERROR_ROUTE_EXISTS = {ERROR}Para criar uma nova rota cancele a atual.
+
+DIALOG_CREATE_ROUTE_CAPTION = Criar rota
+DIALOG_CREATE_ROUTE_BODY = Queres criar uma rota até este lugar?
+DIALOG_CREATE_ROUTE_YES = Rota
+DIALOG_CREATE_ROUTE_NO = Fechar
+
+MESSAGE_INFO_ROUTE = {INFO}Rota calculada.
+MESSAGE_ERROR_ROUTE = {ERROR}Não se pode calcular a rota.
+GAMETEXT_INFO_ROUTE_FINISH = ~g~destino alcancado
+
+[phone]
+MESSAGE_ERROR_NO_PHONE = {ERROR}Não tens celular.
+MESSAGE_ERROR_NUMBER_NO_EXISTS = {ERROR}O número %s não existe.
+MESSAGE_ERROR_NUMBER_OCCUPIED = {ERROR}O número %s está ocupado ou fora de alcance.
+MESSAGE_PHONE_CHAT = {PHONE}[Celular] %s: %s
+MESSAGE_INFO_CONTACT_DELETED = {INFO}Contacto eliminado.
+MESSAGE_ERROR_PB_FULL = {ERROR}A sua agenda está cheio.
+MESSAGE_INFO_CONTACT_ADDED = {INFO}Contacto adicionado.
+MESSAGE_ERROR_PB_ADD = {ERROR}Digite um nome e um número para adicionar um contato.
+MESSAGE_ERROR_CALL_SYNTAX = {ERROR}A syntax do comando é /llamar [número].
+
+DIALOG_PB_CONTACT_CAPTION = Nome do contacto
+DIALOG_PB_CONTACT_BODY = Digite o nome do contacto\nDeve conter no máximo %d caracteres alfanuméricos
+DIALOG_PB_CONTACT_YES = Confirmar
+DIALOG_PB_CONTACT_NO = Fechar
+MESSAGE_ERROR_PB_NAME_FORMAT = {ERROR}O formato é inválido.
+
+[toys]
+DIALOG_CONFIG_TOY_CAPTION = Configurar acessório
+DIALOG_CONFIG_TOY_BODY = Atualmente este acessório está colocado em: %s\nVocê quer alterar a parte do corpo onde o objeto será colocado?
+DIALOG_CONFIG_TOY_YES = Sim
+DIALOG_CONFIG_TOY_NO = Não
+
+MESSAGE_ERROR_TOY_TOO_BIG = {ERROR}O acessório é demasiado grande.
+
+DIALOG_TOYS_CAPTION = Acesórios
+DIALOG_TOYS_BODY = {FFCCFF}|--- Colocados ---|\n%s|--- Guardados ---|\n%s
+DIALOG_TOYS_YES = Opções
+DIALOG_TOYS_NO = Sair
+
+DIALOG_TOY_ATTACHED_CAPTION = Acessório
+DIALOG_TOY_ATTACHED_BODY = Guardar\nConfigurar\nEliminar
+DIALOG_TOY_ATTACHED_YES = Continuar
+DIALOG_TOY_ATTACHED_NO = Sair
+
+DIALOG_TOY_CAPTION = Acessório
+DIALOG_TOY_BODY = Colocar\nEliminar
+DIALOG_TOY_YES = Continuar
+DIALOG_TOY_NO = Sair
+
+MESSAGE_ERROR_NO_WATCH = {ERROR}Você não tem um relógio.
+
+[weapons]
+DIALOG_WEAPONS_CAPTION = Armas
+DIALOG_WEAPONS_BODY = Arma\tMunição\n{FFCCFF}|--- Em mãos ---|\n%s|--- Guardadas ---|\n%s
+DIALOG_WEAPONS_YES = Opções
+DIALOG_WEAPONS_NO = Sair
+
+DIALOG_WEAPON_CARRIED_CAPTION = Arma
+DIALOG_WEAPON_CARRIED_BODY = Guardar\nEliminar
+DIALOG_WEAPON_CARRIED_YES = Continuar
+DIALOG_WEAPON_CARRIED_NO = Sair
+
+DIALOG_WEAPON_CAPTION = Arma
+DIALOG_WEAPON_BODY = Sacar\nEliminar
+DIALOG_WEAPON_YES = Continuar
+DIALOG_WEAPON_NO = Sair
+
+MESSAGE_ERROR_WEAPON_MAX = {ERROR}Você só pode levar %d armas em mãos, guarde alguma primeiro.
+
+[business]
+MESSAGE_ERROR_NO_PRODUCTS = {ERROR}Não se vendem produtos.
+MESSAGE_ERROR_NO_STOCK = {ERROR}Não há unidades deste produto.
+MESSAGE_ERROR_LEVEL = {ERROR}Necessitas ser nível %d para comprar este produto.
+MESSAGE_ERROR_NO_MONEY = {ERROR}Não tens dinheiro suficiente para comprar este produto.
+GAMETEXT_INFO_PRODUCT_BOUGHT = ~g~produto comprado
+MESSAGE_ERROR_INV = {ERROR}Não tens espaço suficiente no inventário para este produto ou talvez já o tenhas.
+MESSAGE_ERROR_CLOTHES = {ERROR}Não há mais roupas disponíveis para você.
+MESSAGE_ERROR_TOYS = {ERROR}Não há mais acessórios disponíveis para você.
+MESSAGE_ERROR_CLOTHES_ADD = {ERROR}Você não pode ter mais roupas.
+MESSAGE_ERROR_TOY_ADD = {ERROR}Você não pode ter mais acessórios.
+MESSAGE_ERROR_NO_MASTER_KEYS = {ERROR}Não tens nenhuma chave (apenas chaves mestras podem ser duplicadas).
+MESSAGE_ERROR_LOCATION = {ERROR}Não estás na tua empresa.
+MESSAGE_ERROR_GUN_LICENSE = {ERROR}Necessitas ter licença de armas para comprar este produto.
+MESSAGE_ERROR_NO_WEAPONS = {ERROR}Não tens nenhuma arma que necessite de munição.
+
+DIALOG_BUSINESS_CAPTION = Empresa
+DIALOG_BUSINESS_BODY = Alterar horario\nCofre\nRádio\nProdutos
+DIALOG_BUSINESS_YES = Continuar
+DIALOG_BUSINESS_NO = Fechar
+
+DIALOG_BUSINESS_SCHEDULE_CAPTION = Horario
+DIALOG_BUSINESS_SCHEDULE_BODY_1 = Horario atual: %02d:00 - %02d:00\n\n
+DIALOG_BUSINESS_SCHEDULE_BODY_2 = Insira o horário de abertura e o horário de fechamento separados por um espaço\nPor exemplo: 8 22
+DIALOG_BUSINESS_SCHEDULE_YES = Alterar
+DIALOG_BUSINESS_SCHEDULE_NO = Voltar
+MESSAGE_ERROR_INVALID_FORMAT = {ERROR}Formato inválido.
+
+DIALOG_BUSINESS_MONEY_CAPTION = Cofre
+DIALOG_BUSINESS_MONEY_BODY = Depositar\nRetirar
+DIALOG_BUSINESS_MONEY_YES = Continuar
+DIALOG_BUSINESS_MONEY_NO = Voltar
+
+DIALOG_BUSINESS_DEPOSIT_CAPTION = Cofre (depositar)
+DIALOG_BUSINESS_DEPOSIT_BODY = Dinheiro no cofre: %d$\nInsira a quantia de dinheiro para depositar
+DIALOG_BUSINESS_DEPOSIT_YES = Depositar
+DIALOG_BUSINESS_DEPOSIT_NO = Fechar
+MESSAGE_ERROR_DEPOSIT_NO_MONEY = Não tens dinheiro suficiente.
+
+DIALOG_BUSINESS_WITHDRAW_CAPTION = Cofre (retirar)
+DIALOG_BUSINESS_WITHDRAW_BODY = Dinheiro no cofre: %d$\nInsira a quantidade de dinheiro a retirar
+DIALOG_BUSINESS_WITHDRAW_YES = Retirar
+DIALOG_BUSINESS_WITHDRAW_NO = Fechar
+MESSAGE_ERROR_WITHDRAW_NO_MONEY = Não há esta quantidade de dinheiro no cofre.
+
+GAMETEXT_INFO_CHANGES_SAVED = ~g~alteracoes aplicadas
+
+MESSAGE_ERROR_ADD_NO_PRODUCTS = {ERROR}Não há mais produtos disponíveis para o seu negócio.
+DIALOG_BUSINESS_EPRODUCT_CAPTION = Modificar produto
+DIALOG_BUSINESS_EPRODUCT_BODY = Preço de venda\nAdicionar stock\nEliminar produto
+DIALOG_BUSINESS_EPRODUCT_YES = Continuar
+DIALOG_BUSINESS_EPRODUCT_NO = Fechar
+
+DIALOG_BP_EDIT_PRICE_CAPTION = Preço
+DIALOG_BP_EDIT_PRICE_BODY = Preço atual de venda: %d$\nCusto do produto: %d$\n\nIntroduz o novo preço de venda:
+DIALOG_BP_EDIT_PRICE_YES = Alterar
+DIALOG_BP_EDIT_PRICE_NO = Voltar
+MESSAGE_ERROR_BP_EDIT_PRICE = {ERROR}O preço não é válido, insira um preço de acordo com a realidade.
+
+DIALOG_BP_DELETE_CAPTION = Eliminar produto
+DIALOG_BP_DELETE_BODY = Tens a certeza que queres eliminar este produto?\nEsta opção é irreversível e você não irá recuperar o custo dos produtos.
+DIALOG_BP_DELETE_YES = Eliminar
+DIALOG_BP_DELETE_NO = Voltar
+
+DIALOG_BP_ADD_STOCK_CAPTION = Adicionar stock
+DIALOG_BP_ADD_STOCK_BODY = Custo do produto: %d$\nInsira a quantidade de estoque para adicionar:
+DIALOG_BP_ADD_STOCK_YES = Continuar
+DIALOG_BP_ADD_STOCK_NO = Voltar
+MESSAGE_ERROR_BP_STOCK = {ERROR}Quantidade de estoque inválida.
+
+DIALOG_BPASTOCK_CONFIRM_CAPTION = Confirmar
+DIALOG_BPASTOCK_CONFIRM_BODY = Quantidade: %d\nCusto total: %d$\n\nDinheiro no cofre: %d$
+DIALOG_BPASTOCK_CONFIRM_YES = Confirmar
+DIALOG_BPASTOCK_CONFIRM_NO = Fechar
+MESSAGE_ERROR_ASTOCK_NO_MONEY = {ERROR}Não há dinheiro suficiente no cofre.
+
+[clothing]
+MESSAGE_ERROR_CHAR_TIME = {ERROR}Data em que poderá alterar o seu personagem: %s (%d dias restantes)
+DIALOG_CHAR_INFO_CAPTION = Informação
+DIALOG_CHAR_INFO_BODY_1 = {INFO}Você só pode mudar seu personagem cada {67bf4a}%d dias.\n{INFO}O custo é de {67bf4a}%d$ do jogo.\n\n
+DIALOG_CHAR_INFO_BODY_2 = {INFO}Ao mudar de personagem você perderá todas as roupas e a configuração dos acessórios.
+DIALOG_CHAR_INFO_YES = Aceitar
+DIALOG_CHAR_INFO_NO = Voltar
+MESSAGE_ERROR_NO_MONEY = {ERROR}Necessitas %d$ para alterar o teu personagem.
+GAMETEXT_INFO_CHAR_CHANGED = ~g~personagem alterado
+MESSAGE_ERROR_SAME_CLOTHE = {ERROR}Você já está vestindo essas roupas.
+GAMETEXT_INFO_CLOTHES_CHANGED = ~g~roupa alterada
+GAMETEXT_INFO_CLOTHES_DELETED = ~r~roupa eliminada
+DIALOG_CLOTHES_CAPTION = Roupa
+DIALOG_CLOTHES_BODY = Vestir\nTirar
+DIALOG_CLOTHES_YES = Continuar
+DIALOG_CLOTHES_NO = Fechar
+MESSAGE_ERROR_DEFAULT_CLOTHES = {ERROR}Você não pode deletar essas roupas porque é a roupa padrão do seu personagem.
+
+[jobs]
+MESSAGE_ERROR_ALREADY_IN_JOB = {ERROR}Primeiro tens de deixar o teu emprego atual (%s).
+MESSAGE_INFO_JOB_STARTED = {INFO}Parabéns! Você assinou um contrato temporário, volte aqui para sair do trabalho.
+GAMETEXT_INFO_JOB_STARTED = ~g~Emprego obtido
+GAMETEXT_INFO_JOB_FINISHED = ~g~Emprego finalizado
+MESSAGE_ERROR_LEVEL = {ERROR}Necessitas ser nível %d para obter este emprego.
+MESSAGE_ERROR_JOB_LEVEL = {ERROR}Necessitas ser nível %d no emprego.
+MESSAGE_ERROR_DRIVER_LICENSE = {ERROR}Necessitas da licença de direção para este emprego.
+
+[taxi]
+GAMETEXT_INFO_TAXI_REQUESTED = ~g~taxi solicitado
+GAMETEXT_INFO_TAXI_CANCELLED = ~r~taxi cancelado
+MESSAGE_WARNING_TAXI_CUSTOMER = {WARNING}[Central] {FFFFFF}Há um novo cliente solicitando taxi em %s (%.2f Km). Utiliza {WARNING}/responder %d {FFFFFF}para atender-lo.
+MESSAGE_ERROR_TAXI_REQUEST = {ERROR}Não podes solicitar um taxi neste momento.
+MESSAGE_ERROR_NO_MONEY = {ERROR}Não tens dinheiro para pagar o taxi.
+
+[trucker]
+MESSAGE_WARNING_LOAD_TRUCK = {WARNING}O caminhão não está carregado, vá até o local de carga.
+MESSAGE_INFO_TRUCK_LOADED = {INFO}O caminhão foi carregado, entrega a carga nas melhores condições para cobrar o máximo possível.
+MESSAGE_ERROR_TRUCK_CANCELED = {ERROR}O trabalho foi cancelado porque você deixou o caminhão.
+MESSAGE_WARNING_TRUCK_COMPLETE = {WARNING}A entrega está completa, você pode retornar ao ponto de carregamento para continuar trabalhando.
+MESSAGE_WARNING_NEED_TRAILER = {WARNING}Necesitas un remolque para poder cargar el camión.
+GAMETEXT_INFO_TRAILER_ATTACHED = ~g~rebocando
+MESSAGE_WARNING_TRUCK_POSITION = {WARNING}Coloque o caminhão corretamente para (des)carregar-lo.
+
+[interest_points]
+DIALOG_INTEREST_POINT_CAPTION = Locais de interesse
+DIALOG_INTEREST_POINT_BODY = Escola de condução\nLoja geral\nLoja de eletrônicos\nCaminhoneiros\nTaxista
+DIALOG_INTEREST_POINT_YES = Continuar
+DIALOG_INTEREST_POINT_NO = Fechar
+MESSAGE_INFO_INTEREST_POINT = {INFO}A posição deste lugar foi marcada no mapa.
+
+[gunsmith]
+MESSAGE_ERROR_NO_JOB = {ERROR}Você não é um montador.
+MESSAGE_ERROR_GSPOINT_IN_USE = {ERROR}Esta mesa de trabalho está em uso.
+MESSAGE_ERROR_NO_PIECES = {ERROR}Você não tem peças para começar a montar.
+MESSAGE_ERROR_PIECES = {ERROR}Você já tem peças suficientes para montar.
+MESSAGE_INFO_PIECES = {INFO}Agora você tem as peças necessárias, vá para uma mesa de trabalho para começar a montar.
+MESSAGE_INFO_PIECE_PLACE = {INFO}Coloque a mercadoria na mesa atrás.
+
+[gun_license]
+MESSAGE_ERROR_INV_SLOT = {ERROR}Você não tem espaço no inventário.
+MESSAGE_ERROR_ALREADY_LICENSE = {ERROR}Já tens licença de armas.
+MESSAGE_ERROR_NO_MONEY = {ERROR}Você não tem dinheiro suficiente.
+
+DIALOG_LICENSE_INFO_CAPTION = Exame teórico
+DIALOG_LICENSE_INFO_BODY_1 = Realizar o exame tem um custo de %d$.\n
+DIALOG_LICENSE_INFO_BODY_2 = Se você aprovar você terá que executar para obter a licença.\n
+DIALOG_LICENSE_INFO_BODY_3 = Se você suspender, terá que repetir o exame novamente e perderá o dinheiro.
+DIALOG_LICENSE_INFO_YES = Começar
+DIALOG_LICENSE_INFO_NO = Sair
+
+MESSAGE_ERROR_LICENSE_TEST = {ERROR}Você não passou no exame.
+GAMETEXT_INFO_LICENSE_PASSED = ~g~licenca obtida
+
+[real_estate]
+MESSAGE_ERROR_NO_PROPERTIES = {ERROR}Você não tem propriedade ou empresa para vender.
+GAMETEXT_INFO_PROPERTY_SOLD = ~g~propiedade vendida
+GAMETEXT_INFO_BUSINESS_SOLD = ~g~empresa vendida
+
+[intro]
+DIALOG_INTRO_INFO_CAPTION = Introdução
+DIALOG_INTRO_INFO_BODY = Queres ver um pequeno tutorial?\nServirá para te orientar.
+DIALOG_INTRO_INFO_YES = Sim
+DIALOG_INTRO_INFO_NO = Não
+
+[help]
+DIALOG_HELP_CAPTION = Ajuda
+DIALOG_HELP_BODY = Geral\nPersonagem\nPropriedades\nVeículos\nEmpresas\nTrabalhos
+DIALOG_HELP_YES = >>
+DIALOG_HELP_NO = X
+
+DIALOG_HELP_GENERAL_CAPTION = Ajuda geral
+DIALOG_HELP_GENERAL_BODY_1 = O servidor está em fase BETA por isso pode conter erros.\nUm dia no jogo são três horas reais.\nPara reportar um jugador usa /reportar.\n
+DIALOG_HELP_GENERAL_BODY_2 = Utilize o comando /duda para perguntar alguma dúvida pelo canal de dúvidas.\n\nPara mais informações visite %s.
+DIALOG_HELP_GENERAL_YES = Fechar
+
+DIALOG_HELP_CHARACTER_CAPTION = Ajuda personagem
+DIALOG_HELP_CHARACTER_BODY_1 = Podes comprar roupa e acessórios para teu personagem.\nOs acessórios devem ser ajustados para cada roupa.\n
+DIALOG_HELP_CHARACTER_BODY_2 = Você pode mudar de personagem do /menu na parte de configurações.
+DIALOG_HELP_CHARACTER_YES = Fechar
+
+DIALOG_HELP_PROPERTIES_CAPTION = Ajuda propriedades
+DIALOG_HELP_PROPERTIES_BODY_1 = Você pode ter %d propiedades, compradas ou alugadas.\nUtiliza o comando /puerta para abrir ou fechar uma porta.\n
+DIALOG_HELP_PROPERTIES_BODY_2 = Para vender sua propriedade, vá a um imóvel.\nPara deixar de alugar uma propriedade, elimine a chave do seu inventário.\n
+DIALOG_HELP_PROPERTIES_BODY_3 = Quando você vende uma casa, todas as chaves serão deletadas.
+DIALOG_HELP_PROPERTIES_YES = Fechar
+
+DIALOG_HELP_VEHICLES_CAPTION = Ajuda veículos
+DIALOG_HELP_VEHICLES_BODY_1 = Você pode ter %d veiculos, comprados ou alugados.\nPara vender o seu veículo vá até uma concessionária.\n
+DIALOG_HELP_VEHICLES_BODY_2 = Para deixar de alugar um veículo, elimine a chave do seu inventário.\nQuando você vende um veículo, todas as chaves do veículo serão apagadas.\n
+DIALOG_HELP_VEHICLES_BODY_3 = Vá a uma oficina para consertar ou modificar seu veículo.
+DIALOG_HELP_VEHICLES_YES = Fechar
+
+DIALOG_HELP_BUSINESS_CAPTION = Ajuda empresas
+DIALOG_HELP_BUSINESS_BODY_1 = Você pode ter %d empresas.\nPara vender a sua empresa, vá a um mercado imobiliário.\nQuando você vende uma empresa, todas as chaves são apagadas.\n
+DIALOG_HELP_BUSINESS_BODY_2 = Utilize o comando /negocio dentro da empresa para o administrar.
+DIALOG_HELP_BUSINESS_YES = Fechar
+
+DIALOG_HELP_JOBS_CAPTION = Ajuda empregos
+DIALOG_HELP_JOBS_BODY_1 = Os empregos são temporais.\nA experiência e o nível de emprego são salvos.\n
+DIALOG_HELP_JOBS_BODY_2 = Utilize o comando /trabalhos para ver sua experiência de trabalho.
+DIALOG_HELP_JOBS_YES = Fechar
+
+[help_channel]
+MESSAGE_ERROR_SYNTAX = {ERROR}A syntax do comando não é correta, usa /duda [pergunta].
+MESSAGE_ERROR_TIME = {ERROR}Você deve esperar %d segundos para voltar a enviar uma dúvida.
+MESSAGE_HELP_CHANNEL = {INFO}[Dúvida] [%s] {FFFFFF}%s (%d): %s
+
+[car_workshop]
+MESSAGE_ERROR_NO_VEHICLE = {ERROR}Você não está dirigindo um veículo.
+MESSAGE_ERROR_VEH_ACCESS = {ERROR}Não pode modificar este veículo porque você não tem as chaves.
+MESSAGE_ERROR_NO_MONEY = {ERROR}Não tens dinheiro suficiente.
+MESSAGE_ERROR_ENGINE = {ERROR}Você deve desligar o motor.
+MESSAGE_ERROR_TUNING = {ERROR}Você não pode modificar este veículo.
+MESSAGE_ERROR_PAINTJOB = {ERROR}Este veículo não tem paintjobs.
+MESSAGE_ERROR_NO_COMPONENTS = {ERROR}Este veículo não tem modificações.
+GAMETEXT_INFO_WORK_DONE = ~g~trabalho realizado
+
+DIALOG_CAR_WORKSHOP_CAPTION = Oficina de carros
+DIALOG_CAR_WORKSHOP_BODY = Reparar\t%d$\nPintar\nModificar\nEliminar componente\t%d$\nPaintjob\t%d$
+DIALOG_CAR_WORKSHOP_YES = Continuar
+DIALOG_CAR_WORKSHOP_NO = Fechar
+
+DIALOG_CAR_PAINT_CAPTION = Pintar vehículo
+DIALOG_CAR_PAINT_BODY = Cor primária\t%d$\nCor secundária\t%d$
+DIALOG_CAR_PAINT_YES = Continuar
+DIALOG_CAR_PAINT_NO = Fechar
+
+[admin_player]
+DIALOG_INFO_PERM_BANNED_CAPTION = Atenção!
+DIALOG_INFO_PERM_BANNED_BODY = Sua conta ou seu endereço IP está permanentemente banido.\n\nID: %d\nRazão: %s\nData: %s
+DIALOG_INFO_PERM_BANNED_YES = Fechar
+
+DIALOG_INFO_TEMP_BANNED_CAPTION = Atenção!
+DIALOG_INFO_TEMP_BANNED_BODY = Sua conta ou endereço IP está banido temporariamente.\n\nID: %d\nRazão: %s\nData: %s\n\nData atual: %s\nData de readmissão: %s
+DIALOG_INFO_TEMP_BANNED_YES = Fechar
+MESSAGE_WARNING_TEMP_BAN = {WARNING}A sua conta está banida por %d dias.
+
+MESSAGE_WARNING_UNBANNED = {WARNING}Sua conta foi readmitida.
+MESSAGE_WARNING_KICKED = {WARNING}Você foi expulso do servidor, razão: %s.
+
+MESSAGE_ERROR_PDISCONNECTED = {ERROR}O jogador não está conectado.
+MESSAGE_ERROR_SYNTAX_REPORT = {ERROR}Syntax do comando: /reportar [jogador ID/Nome] [razão]
+MESSAGE_WARNING_REPORT = {WARNING}%s (%d) reportou %s (%d): %s
+MESSAGE_INFO_REPORT_SENT = {INFO}Seu reporte foi enviado para os administradores online.
+
+[forum]
+MESSAGE_WARNING_REGISTERED = {WARNING}Sua conta foi registrada no fórum: %s.
+
+[admin_messages]
+MESSAGE_ADMIN_KICK = {ADMIN}O administrador %s (%d) expulsou %s (%d): %s
+MESSAGE_ADMIN_PERM_BAN = {ADMIN}O administrador %s (%d) expulsou (permanentemente) %s (%d): %s
+MESSAGE_ADMIN_TEMP_BAN = {ADMIN}O administrador %s (%d) expulsou (temporariamente) %s (%d): %s
+MESSAGE_ADMIN_AC_KICK = {ADMIN}O anticheat expulsou %s (%d): %s
+
+[vinv]
+MESSAGE_ERROR_NO_ONFOOT = {ERROR}Você não está de pé.
+MESSAGE_ERROR_NO_VEHICLE = {ERROR}Não há veículo nas proximidades.
+MESSAGE_ERROR_NO_INVENTORY = {ERROR}Este veículo não tem portamalas.
+MESSAGE_ERROR_NO_ACCESS = {ERROR}Você não tem as chaves deste veículo.
+
+[autopilot]
+MESSAGE_ERROR_NO_VEHICLE = {ERROR}Este veículo está aguardando outra pessoa.
+
+DIALOG_AUTOPILOT_PLACES_CAPTION = Locais de interesse
+DIALOG_AUTOPILOT_PLACES_BODY = Abrir GPS\nEscola de condução\nLoja geral\nLoja de eletrônicos\nCaminhoneiros\nTaxista
+DIALOG_AUTOPILOT_PLACES_YES = Ir
+DIALOG_AUTOPILOT_PLACES_NO = Fechar
+MESSAGE_ERROR_NO_GPS = {ERROR}Você não tem GPS.
+
+GAMETEXT_INFO_ARRIVED = ~g~destino alcancado
+MESSAGE_ERROR_NO_MONEY = {ERROR}Você não tem dinheiro para continuar pagando.
+MESSAGE_ERROR_PATH = {ERROR}Ocorreu um erro ao tentar calcular o trajeto.
+MESSAGE_INFO_TAXI = {INFO}Há um táxi esperando por você nas proximidades.

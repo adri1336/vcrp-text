@@ -1,0 +1,1298 @@
+[connection]
+MESSAGE_ERROR_WRONG_NAME_FORMAT = {ERROR}Your name does not comply with the format Name_Surname.
+MESSAGE_WARNING_IP = {WARNING}Your IP address has changed since your last connection.
+
+MESSAGE_INFO_SPAWN_NEW_USER = {SUCCESS}* Welcome %s, we hope you have fun in the ser, type /help to get help.
+MESSAGE_INFO_SPAWN = {SUCCESS} * Welcome back %s, your last connection was at %s.
+
+MESSAGE_ERROR_INDEX = {ERROR}Your last position could not be loaded due to a server error.
+
+[register]
+TEXTDRAW_GENDER = Gender
+TEXTDRAW_GENDER_MALE = Male
+TEXTDRAW_GENDER_FEMALE = Female
+TEXTDRAW_CHARACTER = Character
+TEXTDRAW_CONTINUE = Continue
+
+DIALOG_REGISTER_LANG_CAPTION = Select your language
+DIALOG_REGISTER_LANG_BODY = %s
+DIALOG_REGISTER_LANG_YES = Continue
+DIALOG_REGISTER_LANG_NO = Cancel
+
+DIALOG_REGISTER_PASSWD_CAPTION = Register your account
+DIALOG_REGISTER_PASSWD_BODY_1 = Enter a password that you can remember to register your account.\n
+DIALOG_REGISTER_PASSWD_BODY_2 = The password must be secure and must contain between %d and %d characters.\n\n
+DIALOG_REGISTER_PASSWD_BODY_3 = Do not share your password with anyone!
+DIALOG_REGISTER_PASSWD_YES = Continue
+DIALOG_REGISTER_PASSWD_NO = Cancel
+MESSAGE_ERROR_WRONG_REG_PASSWD = {ERROR}The password does not comply with the format.
+
+DIALOG_REGISTER_REPASSWD_CAPTION = Register your account
+DIALOG_REGISTER_REPASSWD_BODY = Re-enter your password.\nWe want to check that they match.
+DIALOG_REGISTER_REPASSWD_YES = Continue
+DIALOG_REGISTER_REPASSWD_NO = Back
+MESSAGE_ERROR_WRONG_REG_REPASSWD = {ERROR}Passwords do not match.
+
+DIALOG_REGISTER_MAIL_CAPTION = Email
+DIALOG_REGISTER_MAIL_BODY = Enter your email address\nThis will be the only way to recover your password.
+DIALOG_REGISTER_MAIL_YES = Continue
+DIALOG_REGISTER_MAIL_NO = Cancel
+MESSAGE_ERROR_WRONG_MAIL_FORMAT = {ERROR}Invalid format.
+MESSAGE_WARNING_EMAIL_EXISTS = {WARNING}This email is already in use.
+
+MESSAGE_INFO_REGISTER = {INFO}To continue, click continue.
+
+[login]
+DIALOG_LOGIN_CAPTION = Login
+DIALOG_LOGIN_BODY = Welcome back, %s.\nEnter your password.
+DIALOG_LOGIN_YES = Continue
+DIALOG_LOGIN_NO = Cancel
+MESSAGE_ERROR_WRONG_LOGIN = {ERROR}Wrong password. Attempt %d/%d, if you fail all attempts you will be blocked for %d minutes.
+
+[commands_control]
+MESSAGE_ERROR_NOT_SPAWNED = {ERROR}You can not use commands now.
+MESSAGE_ERROR_NOT_ALLOWED = {ERROR}You are not allowed to use this command.
+MESSAGE_ERROR_UNDEFINED_COMMAND = {ERROR}Command %s does not exits.
+
+[afk]
+MESSAGE_INFO_AFK_DAYS = {INFO}You were paused for %d days, %d hours and %d minuts.
+MESSAGE_INFO_AFK_HOURS = {INFO}You were paused for %d hours and %d minutes.
+MESSAGE_INFO_AFK_MINUTES = {INFO}You were paused for %d minutes and %d seconds.
+MESSAGE_INFO_AFK_SECONDS = {INFO}You were paused for %d seconds.
+
+[area_action_key]
+GAMETEXT_INFO_CLOSED = ~r~closed
+MESSAGE_ERROR_PROPERTY_LT_MINUTES = {ERROR}You have to wait %d minutes and %d seconds to make a visit again.
+MESSAGE_ERROR_PROPERTY_LT_SECONDS = {ERROR}You have to wait %d seconds to make a visit again.
+
+[hospital]
+MESSAGE_INFO_HOSPITAL_MONEY = {INFO}You were taken to the nearest hospital, the cost for medical services is %d$.
+MESSAGE_INFO_HOSPITAL = {INFO}You were taken to the nearest hospital.
+MESSAGE_INFO_HOSPITAL_BED = {INFO}You can use the hospital beds to get health.
+MESSAGE_ERROR_BED_IN_USE = {ERROR}This bed is being used by someone else.
+MESSAGE_INFO_BED = {INFO}Wait until you get health, to leave press F or ENTER.
+MESSAGE_ERROR_GOOD_HEALTH = {ERROR}Your health is good, you do not need get health.
+GAMETEXT_INFO_CURED = ~g~cured
+MESSAGE_INFO_BED_DISTANCE = {INFO}Do not get out of bed while you heal, if you want to go press F or ENTER.
+
+[disconnect_message]
+MESSAGE_INFO_DISCONNECT_CRASH = {INFO}%s has left the server (crash).
+MESSAGE_INFO_DISCONNECT_QUIT = {INFO}%s has left the server.
+MESSAGE_INFO_DISCONNECT_KICK = {INFO}%s has left the server (kick/ban).
+
+[atm]
+TEXTDRAW_WITHDRAW = Withdraw
+TEXTDRAW_DEPOSIT = Deposit
+TEXTDRAW_EXIT = Exit
+
+DIALOG_ATM_DEPOSIT_CAPTION = Deposit money
+DIALOG_ATM_DEPOSIT_BODY = You have %d$ in your wallet, how much do you want to deposit?
+DIALOG_ATM_DEPOSIT_YES = Deposit
+DIALOG_ATM_DEPOSIT_NO = Back
+
+DIALOG_ATM_WITHDRAW_CAPTION = Withdraw money
+DIALOG_ATM_WITHDRAW_BODY = You have %d$ in your bank account, how much do you want to withdraw?
+DIALOG_ATM_WITHDRAW_YES = Withdraw
+DIALOG_ATM_WITHDRAW_NO = Back
+
+MESSAGE_ERROR_WRONG_FORMAT = {ERROR}You must enter a whole numerical value.
+MESSAGE_ERROR_NEGATIVE = {ERROR}You must enter a positive value.
+MESSAGE_ERROR_NOMONEY = {ERROR}You do not have %d$ in your wallet.
+MESSAGE_ERROR_NOBANKMONEY = {ERROR}You do not have %d$ in your bank account.
+MESSAGE_ERROR_MAX_TRANSACTION = {ERROR}ATMs have a limit of %d$ per transaction.
+MESSAGE_INFO_DEPOSIT = {INFO}You have deposited %d$ in your bank account.
+MESSAGE_INFO_WITHDRAW = {INFO}You have withdrawn %d$ to your wallet.
+
+[bank]
+DIALOG_BANK_MOVEMENTS_HEADER = Date\tConcept\tAmount\n
+BANK_MOVEMENT_WITHDRAW = Money withdrawal
+BANK_MOVEMENT_DEPOSIT = Money deposit
+BANK_MOVEMENT_TRANSFER_TO = Transfer to:
+BANK_MOVEMENT_TRANSFER_FROM = Transfer from:
+
+DIALOG_BANK_POINT_CAPTION = Bank
+DIALOG_BANK_POINT_BODY = - Withdraw\n- Deposit\n- Transfer\n- Movements
+DIALOG_BANK_POINT_YES = Continue
+DIALOG_BANK_POINT_NO = Cancel
+
+DIALOG_BANK_WITHDRAW_CAPTION = Withdraw money
+DIALOG_BANK_WITHDRAW_BODY = You have %d$ in your bank account, how much do you want to withdraw?
+DIALOG_BANK_WITHDRAW_YES = Withdraw
+DIALOG_BANK_WITHDRAW_NO = Back
+
+DIALOG_BANK_DEPOSIT_CAPTION = Deposit money
+DIALOG_BANK_DEPOSIT_BODY = You have %d$ in your wallet, how much do you want to deposit?
+DIALOG_BANK_DEPOSIT_YES = Deposit
+DIALOG_BANK_DEPOSIT_NO = Back
+
+DIALOG_BANK_TRANSFER_CAPTION = Transfer money
+DIALOG_BANK_TRANSFER_BODY = How much money do you want to transfer?\nYou have %d$ in your bank account.
+DIALOG_BANK_TRANSFER_YES = Continue
+DIALOG_BANK_TRANSFER_NO = Back
+
+DIALOG_BANK_TRANSFER_NAME_CAPTION = Transfer money
+DIALOG_BANK_TRANSFER_NAME_BODY = Ok, you want to transfer %d$.\nTo who do you want to transfer the money? Enter the full name.
+DIALOG_BANK_TRANSFER_NAME_YES = Continue
+DIALOG_BANK_TRANSFER_NAME_NO = Back
+MESSAGE_ERROR_TRANSFER_WRONG_FORMAT = {ERROR}You must enter the name of the person to whom you want to transfer the money.
+MESSAGE_ERROR_TRANSFER_WRONG_NAME = {ERROR}The name '%s' is not registered in our database.
+
+DIALOG_BANK_TRANSFER_CONFIRM_CAPTION = Transfer money
+DIALOG_BANK_TRANSFER_CONFIRM_BODY = To: %s\nAmount: %d$\n\nDo you want to make the transfer?
+DIALOG_BANK_TRANSFER_CONFIRM_YES = Transfer
+DIALOG_BANK_TRANSFER_CONFIRM_NO = Back
+
+MESSAGE_ERROR_WRONG_FORMAT = {ERROR}You must enter a whole numerical value.
+MESSAGE_ERROR_NEGATIVE = {ERROR}You must enter a positive value.
+MESSAGE_ERROR_NOMONEY = {ERROR}You do not have %d$ in your wallet.
+MESSAGE_ERROR_NOBANKMONEY = {ERROR}You do not have %d$ in your bank account.
+MESSAGE_ERROR_MAX_TRANSACTION = {ERROR}ATMs have a limit of %d$ per transaction.
+MESSAGE_INFO_DEPOSIT = {INFO}You have deposited %d$ in your bank account.
+MESSAGE_INFO_WITHDRAW = {INFO}You have withdrawn %d$ to your wallet.
+MESSAGE_INFO_TRANSFER = {INFO}You have transferred %d$ to %s.
+MESSAGE_INFO_GOTTRANSFER = {INFO}You have recevied transfer from %s amount: %d$.
+MESSAGE_ERROR_NO_MOVEMENTS = {ERROR}There are no movements in your bank account.
+
+[veh_shop_sunshine]
+DIALOG_SELECT_OPTION_CAPTION = Concessionaire
+DIALOG_SELECT_OPTION_BODY = Buy vehicle\nSell vehicle
+DIALOG_SELECT_OPTION_YES = >>
+DIALOG_SELECT_OPTION_NO = Close
+
+DIALOG_SVEH_INFO_CAPTION = Purchase vehicle
+DIALOG_SVEH_INFO_BODY = Vehicle: %s\nPrice: %d$\nRequired level: %d\n\nMax speed: %dKm/h\nTank capacity: %.0fL\nSeats: %d\n\nDo you want to purchase this vehicle?
+DIALOG_SVEH_INFO_YES = Buy
+DIALOG_SVEH_INFO_NO = Cancel
+
+MESSAGE_ERROR_NO_MONEY = {ERROR}You need %d$ to buy this vehicle.
+MESSAGE_ERROR_NO_LEVEL = {ERROR}You have to be level %d to buy this vehicle.
+MESSAGE_ERROR_MAX_VEHS = {ERROR}You can not have more vehicle, limit is %d vehicles per player.
+MESSAGE_ERROR_INV_SLOT = {ERROR}You do not have free slots in your inventory for the vehicle keys.
+MESSAGE_ERROR_NO_LICENSE = {ERROR}You don't have driver license.
+
+DIALOG_SELL_CONFIRM_CAPTION = Sell vehicle
+DIALOG_SELL_CONFIRM_BODY = Vehicle: %s\nPlate: %s\nYou will get: %d$\nDo you want to sell your vehicle?
+DIALOG_SELL_CONFIRM_YES = Sell
+DIALOG_SELL_CONFIRM_NO = Cancel
+
+MESSAGE_ERROR_VEHICLE_SELL = {ERROR}Right now we do not need vehicles, come back another day.
+MESSAGE_ERROR_NO_VEHICLES = {ERROR}You do not have any vehicle.
+MESSAGE_ERROR_VEHICLE_STATE = {ERROR}You can not sell this vehicle now.
+MESSAGE_ERROR_VEHICLE_AREA = {ERROR}The vehicle has to be near the dealer to be able to sell it.
+GAMETEXT_INFO_VEHICLE_SOLD = ~g~sold
+
+DIALOG_BUY_VEHICLE_INFO_CAPTION = Used vehicle
+DIALOG_BUY_VEHICLE_INFO_BODY = Vehicle: %s\nKMS: %.0f\nPrice: %d$\nRequired level: %d
+DIALOG_BUY_VEHICLE_INFO_YES = Buy
+DIALOG_BUY_VEHICLE_INFO_NO = Cancel
+GAMETEXT_INFO_VEHICLE_BOUGHT = ~g~purchased
+
+[nears_players]
+DIALOG_CAPTION = Near players
+DIALOG_ME = Me
+
+MESSAGE_ERROR_NO_NEAR_PLAYERS = {ERROR}There are no close players.
+MESSAGE_ERROR_SELECTED_PLAYER_GONE = {ERROR}The player is no longer available.
+
+[inv]
+TEXTDRAW_TITLE = INVENTARIO
+TEXTDRAW_INV_FREE_SLOT = Free slot
+
+INV_BUTTON_TYPE_GIVE = Give
+INV_BUTTON_TYPE_MOVE = Move
+INV_BUTTON_TYPE_DELETE = Delete
+INV_BUTTON_TYPE_VEHICLE_OPEN = Unlock
+INV_BUTTON_TYPE_PDOOR_OPEN = Unlock
+INV_BUTTON_TYPE_BDOOR_OPEN = Unlock
+INV_BUTTON_TYPE_VEHICLE_CLOSE = Lock
+INV_BUTTON_TYPE_PDOOR_CLOSE = Lock
+INV_BUTTON_TYPE_BDOOR_CLOSE = Lock
+INV_BUTTON_TYPE_VEHICLE_START = Start
+INV_BUTTON_TYPE_VEHICLE_STOP = Stop
+INV_BUTTON_TYPE_SHOW = Show
+INV_BUTTON_TURN_PHONE_ON = Turn on
+INV_BUTTON_TOY_ATTACH = Attach
+INV_BUTTON_TOY_REMOVE = Remove
+INV_BUTTON_CONFIG_TOY = Adjust
+INV_BUTTON_WEAPON_CARRY_YES = Take
+INV_BUTTON_WEAPON_CARRY_NO = Save
+INV_BUTTON_TYPE_OPEN_GPS = Use
+INV_BUTTON_TYPE_OPEN_PHONE = Use
+INV_BUTTON_FOOD_EAT = Eat
+INV_BUTTON_DRINK_DRINK = Drink
+INV_BUTTON_TYPE_SMOKE = Smoke
+INV_BUTTON_WATCH_TIME = Time
+
+INV_ITEM_BANDANA = bandana
+INV_ITEM_BEER = beer
+INV_ITEM_CAP = cap
+INV_ITEM_CIGARETTE = cigar
+INV_ITEM_GLASSES = glasses
+INV_ITEM_HELMET = helmet
+INV_ITEM_HOTDOG = hotdog
+INV_ITEM_PROPERTY_KEY = property key (%d)
+INV_ITEM_PROPERTY_MASTER_KEY = property key (%d)
+INV_ITEM_PROPERTY_RENT_KEY = property key (%d)
+INV_ITEM_MASK = mask
+INV_ITEM_PHONE_NULL = phone
+INV_ITEM_PHONE = phone (%s)
+INV_ITEM_PIZZA = pizza
+INV_ITEM_SMASK = scarf
+INV_ITEM_SKI_MASK = ski mask
+INV_ITEM_SODA = soda
+INV_ITEM_WATCH = watch
+INV_ITEM_WATER = water
+INV_ITEM_WHISKY = whisky
+INV_ITEM_HAMBURGER = burger
+INV_ITEM_HAT = hat
+INV_ITEM_BRASS_KNUCKLES = brass knuckles
+INV_ITEM_GOLF_CLUB = golf club
+INV_ITEM_NIGHTSTICK = nightstick
+INV_ITEM_KNIFE = knife
+INV_ITEM_BASEBALL_BAT = bat
+INV_ITEM_SHOVEL = shovel
+INV_ITEM_POOL_CUE = cue
+INV_ITEM_KATANA = katana
+INV_ITEM_CHAINSAW = chainsaw
+INV_ITEM_PURPLE_DILDO = purple dildo
+INV_ITEM_DILDO = dildo
+INV_ITEM_VIBRATOR = vibrator
+INV_ITEM_SILVER_VIBRATOR = silver vibrator
+INV_ITEM_FLOWERS = flowers
+INV_ITEM_CANE = walking stick
+INV_ITEM_GRENADE = grenada
+INV_ITEM_TEAR_GAS = tear gas
+INV_ITEM_MOLOTOV_COCKTAIL = molotov cocktail
+INV_ITEM_COLT45 = pistol
+INV_ITEM_SILENCED_COLT45 = silenced pistol
+INV_ITEM_DESERT_EAGLE = desert eagle
+INV_ITEM_SHOTGUN = shotgun
+INV_ITEM_SAWNOFF_SHOTGUN = sawed-off shotgun
+INV_ITEM_COMBAT_SHOTGUN = combat shotgun
+INV_ITEM_UZI = uzi
+INV_ITEM_MP5 = mp5
+INV_ITEM_AK_47 = ak-47
+INV_ITEM_M4 = m4
+INV_ITEM_TEC_9 = tec-9
+INV_ITEM_COUNTRY_RIFLE = rifle
+INV_ITEM_SNIPER_RIFLE = sniper
+INV_ITEM_RPG = rocket launcher
+INV_ITEM_HS_ROCKET = rocket launcher
+INV_ITEM_FLAMETHROWER = flamethrower
+INV_ITEM_MINIGUN = minigun
+INV_ITEM_SATCHEL_CHARGE = explosive charge
+INV_ITEM_DETONATOR = detonator
+INV_ITEM_SPRAYCAN = spray can
+INV_ITEM_FIRE_EXTINGUISHER = extinguisher
+INV_ITEM_CAMERA = camera
+INV_ITEM_PARACHUTE = parachute
+INV_ITEM_VEHICLE_KEY = %s key (VEH-%05d)
+INV_ITEM_VEHICLE_MASTER_KEY = %s key (VEH-%05d)
+INV_ITEM_VEHICLE_RENT_KEY = %s key (VEH-%05d)
+INV_ITEM_BUSINESS_KEY = business key (%d)
+INV_ITEM_BUSINESS_MASTER_KEY = business key (%d)
+INV_ITEM_DRIVER_LICENSE = driver license
+INV_ITEM_CHARACTER_ID = id
+INV_ITEM_GPS = GPS
+INV_ITEM_GUN_LICENSE = gun license
+
+DIALOG_DELETE_ITEM_CAPTION = Delete item
+DIALOG_DELETE_ITEM_BODY = Are you sure you want to delete this item from your inventory?\nThis option can not be undone.
+DIALOG_DELETE_ITEM_YES = Delete
+DIALOG_DELETE_ITEM_NO = Cancel
+GAMETEXT_INFO_ITEM_DELETE = ~r~deleted
+
+DIALOG_GIVE_ITEM_CAPTION = Inventory
+DIALOG_GIVE_ITEM_BODY = From: %s (%d)\nItem: %s
+DIALOG_GIVE_ITEM_YES = Accept
+DIALOG_GIVE_ITEM_NO = Reject
+MESSAGE_ERROR_GIVE_DISCONNECTED = {ERROR}The player has disconnected.
+MESSAGE_ERROR_GIVE_PLAYER_AFK = {ERROR}The player is paused.
+MESSAGE_ERROR_SELECTED_PLAYER_GONE = {ERROR}The player is no longer available.
+MESSAGE_ERROR_GIVE_ERROR_PLAYER = {ERROR}The action could not be completed, it is likely that you do not have space in your inventory.
+MESSAGE_ERROR_GIVE_ERROR = {ERROR}The action could not be completed, it is likely that the person does not have space in their inventory.
+MESSAGE_ERROR_GIVE_ERROR_ID = {ERROR}Error, item has changed.
+MESSAGE_INFO_GIVE_WAIT = {INFO}Wait until %s accept or reject the item.
+MESSAGE_INFO_GIVE_PLAYER = {INFO}%s give you '%s'.
+MESSAGE_INFO_GIVE = {INFO}You have given '%s' to %s.
+MESSAGE_INFO_GIVE_REJECT = {INFO}%s has rejected your item.
+MESSAGE_INFO_MOVE = {INFO}Now select the position where you want to move this item.
+
+MESSAGE_ERROR_PLAYER_INV_DISABLED = {ERROR}This player is making a deal with another player.
+MESSAGE_ERROR_INV_DISABLED = {ERROR}You can not open the inventory until you finish the deal with %s (%d).
+
+MESSAGE_ERROR_NO_FUEL = {ERROR}The vehicle does not have fuel.
+GAMETEXT_INFO_VEHICLE_OPENED = ~g~opened
+GAMETEXT_INFO_VEHICLE_CLOSED = ~r~closed
+GAMETEXT_INFO_VEHICLE_STARTED = ~g~started
+GAMETEXT_INFO_VEHICLE_STOPPED = ~r~stopped
+
+MESSAGE_ERROR_NO_MONEY = {ERROR}You do not have %d$ to be able to take your vehicle.
+DIALOG_VEHICLE_POUND_CAPTION = Vehicle
+DIALOG_VEHICLE_POUND_BODY = Your vehicle is in the municipal depot.\nYou must pay %d$ to be able to take your vehicle.
+DIALOG_VEHICLE_POUND_YES = Pay
+DIALOG_VEHICLE_POUND_NO = Cancel
+
+MESSAGE_INFO_ITEM_SHOWN = {INFO}You have shown your %s to %s.
+MESSAGE_INFO_ITEM_SHOW = {INFO}%s shows your his %s.
+DIALOG_SHOW_ITEM_CAPTION = Inventory
+DIALOG_SHOW_ITEM_BODY = %s of %s\n%s
+DIALOG_SHOW_ITEM_YES = Close
+
+GAMETEXT_INFO_DOOR_OPENED = ~g~opened
+GAMETEXT_INFO_DOOR_CLOSED = ~r~closed
+
+MESSAGE_ERROR_TOYS_FULL = {ERROR}You can not place more toys.
+MESSAGE_ERROR_TOY_NOT_ATTACHED = {ERROR}Toy is not attached.
+
+MESSAGE_ERROR_WEAPON_MAX = {ERROR}You can only carry %d weapons in hand, save some weapon first.
+
+MESSAGE_ERROR_FOOD_LIMIT = {ERROR}Wait to finish eating to eat again.
+MESSAGE_ERROR_FOOD_VOMIT = {ERROR}You've already eaten too much, wait some time.
+MESSAGE_ERROR_DRINK_LIMIT = {ERROR}Wait to finish drinking to drink again.
+MESSAGE_ERROR_DRINK = {ERROR}You are not thirsty
+
+[vehicle_funcs]
+MESSAGE_ERROR_NO_DRIVING = {ERROR}You are not driving.
+MESSAGE_ERROR_INVALID_VEHICLE_ID = {ERROR}You are not near or inside a vehicle.
+MESSAGE_ERROR_NO_DOORS = {ERROR}This vehicle has no lock.
+MESSAGE_ERROR_NO_ENGINE = {ERROR}This vehicle has no engine.
+MESSAGE_ERROR_NO_KEY = {ERROR}You do not have the keys of this vehicle.
+MESSAGE_ERROR_NO_ACCESS = {ERROR}You do not have access to this vehicle.
+MESSAGE_ERROR_NO_FUEL = {ERROR}The vehicle does not have fuel.
+MESSAGE_ERROR_NO_RADIO = {ERROR}This vehicle does not have a radio.
+GAMETEXT_INFO_VEHICLE_OPENED = ~g~opened
+GAMETEXT_INFO_VEHICLE_CLOSED = ~r~closed
+GAMETEXT_INFO_VEHICLE_STARTED = ~g~started
+GAMETEXT_INFO_VEHICLE_STOPPED = ~r~stopped
+GAMETEXT_INFO_VEHICLE_LIGHTS_ON = ~g~lights on
+GAMETEXT_INFO_VEHICLE_LIGHTS_OFF = ~r~lights off
+GAMETEXT_INFO_NO_FUEL = ~r~out of fuel
+
+DIALOG_VEHICLE_POUND_CAPTION = Vehicle
+DIALOG_VEHICLE_POUND_BODY = Your vehicle is in the municipal depot.\nYou must pay %d$ to be able to take your vehicle.
+DIALOG_VEHICLE_POUND_YES = Pay
+DIALOG_VEHICLE_POUND_NO = Cancel
+MESSAGE_ERROR_NO_MONEY = {ERROR}You do not have %d$ to be able to take your vehicle.
+
+[gas_station]
+MESSAGE_ERROR_ENGINE_ON = {ERROR}Turn off the vehicle's engine.
+MESSAGE_ERROR_MAX_FUEL = {ERROR}Fuel is at maximum.
+MESSAGE_ERROR_NO_MONEY = {ERROR}You do not have enough money
+MESSAGE_INFO_FUEL = {INFO}Wait while the gas is full or start and go.
+GAMETEXT_INFO_FUELING = ~y~fueling_~p~%.0fL/%.0fL
+GAMETEXT_INFO_FUELED = ~g~fueled_~p~%.0fL/%.0fL
+
+[vc_mdlpreview]
+MESSAGE_ERROR_DB_ERROR = {ERROR}Unable to load, database problem (vc_map).
+MESSAGE_INFO_QUIT = {INFO}Use the same command again to exit this mode.
+MESSAGE_INFO_FILTER_ON = {INFO}Filter enabled, now it will be passed to those that are null type.
+MESSAGE_INFO_FILTER_OFF = {INFO}Filter disabled, will now be passed object normally.
+
+DIALOG_MODELID_CAPTION = Enter modelid
+DIALOG_MODELID_BODY = Modelid:
+DIALOG_MODELID_YES = Go
+DIALOG_MODELID_NO = Close
+MESSAGE_ERROR_WRONG_MODELID_FORMAT = {ERROR}Invalid format.
+MESSAGE_ERROR_NO_MODELID_FOUND = {ERROR}The modelid was not found in the db.
+
+DIALOG_OBJECT_TYPE_CAPTION = Select the type of object
+DIALOG_OBJECT_TYPE_BODY = %s
+DIALOG_OBJECT_TYPE_YES = Set
+DIALOG_OBJECT_TYPE_NO = Cancel
+
+[driving_school]
+TEST_1_QUESTION = Where should the vehicle circulate?
+TEST_1_VALID_ANSWER = 1
+TEST_1_1_ANSWER = In the right lane of the road
+TEST_1_2_ANSWER = In the left lane of the road
+TEST_1_3_ANSWER = On the sidewalk
+
+TEST_2_QUESTION = What should you do when traffic light is red?
+TEST_2_VALID_ANSWER = 3
+TEST_2_1_ANSWER = Continue driving
+TEST_2_2_ANSWER = Destroy the traffic light
+TEST_2_3_ANSWER = Stop and continue when it's green
+
+TEST_3_QUESTION = If a police officer enjoin you to stop, what should you do?
+TEST_3_VALID_ANSWER = 2
+TEST_3_1_ANSWER = Run over him and continue
+TEST_3_2_ANSWER = Follow the agent's instructions
+TEST_3_3_ANSWER = Ignore it and accelerate
+
+TEST_4_QUESTION = 3 Can you drive a vehicle under alcohol effects?
+TEST_4_VALID_ANSWER = 3
+TEST_4_1_ANSWER = Yeah, no problem
+TEST_4_2_ANSWER = No, unless necessary
+TEST_4_3_ANSWER = No, never
+
+TEST_5_QUESTION = 2 Where should you park your vehicle?
+TEST_5_VALID_ANSWER = 2
+TEST_5_1_ANSWER = On the road
+TEST_5_2_ANSWER = In a parking
+TEST_5_3_ANSWER = On the sidewalk
+
+TEXTDRAW_CANCEL_1_MESSAGE = You have ~y~%d seconds ~w~to get back to the vehicle or test will be canceled.
+TEXTDRAW_CANCEL_2_MESSAGE = ~r~The test has been canceled because you have left the vehicle.
+TEXTDRAW_CANCEL_3_MESSAGE = ~r~The test has been canceled because the vehicle has been destroyed.
+TEXTDRAW_CANCEL_4_MESSAGE = ~r~The test has been canceled because you have exceeded the speed limit.
+
+TEXTDRAW_SPEED_LIMIT = Current speed limit: %s%d KM/H\n~w~Next speed limit: %s%d KM/H
+
+MESSAGE_ERROR_INV_SLOT = {ERROR}You do not have free slots in your inventory to save the license.
+MESSAGE_ERROR_HAVE_LICENSE = {ERROR}You already have a driver's license.
+MESSAGE_ERROR_NO_MONEY = {ERROR}You do not have enough money to pay for the license.
+
+DIALOG_LICENSE_INFO_CAPTION = Theoric exam
+DIALOG_LICENSE_INFO_BODY_1 = Do the exam has a cost of %d$.\n
+DIALOG_LICENSE_INFO_BODY_2 = If you pass, you will have to take a practical test to obtain the license.\n
+DIALOG_LICENSE_INFO_BODY_3 = If you don't pass you will have to repeat the test again.
+DIALOG_LICENSE_INFO_YES = Start
+DIALOG_LICENSE_INFO_NO = Cancel
+
+MESSAGE_ERROR_LICENSE_TEST = {ERROR}You have not passed the test.
+GAMETEXT_INFO_LICENSE_TEST = ~g~test passed
+GAMETEXT_INFO_LICENSE_PASSED = ~g~license obtained
+
+MESSAGE_INFO_VEHICLE_LICENSE = {INFO}Get in the vehicle to continue with the practical test
+
+[chat]
+MESSAGE_CHAT = {CHAT}%s says: %s
+MESSAGE_CHAT_DRUNK = {CHAT}%s says (drunk): %s
+MESSAGE_CHAT_PHONE = {CHAT}%s says (phone): %s
+
+[actions]
+MESSAGE_ACTION_OPEN_VEHICLE = {ACTION}* %s open the vehicle (%s)
+MESSAGE_ACTION_CLOSE_VEHICLE = {ACTION}* %s close the vehicle (%s)
+MESSAGE_ACTION_START_VEHICLE = {ACTION}* %s starts the vehicle (%s)
+MESSAGE_ACTION_STOP_VEHICLE = {ACTION}* %s stops the vehicle (%s)
+MESSAGE_ACTION_INV_GIVE = {ACTION}* %s gives his %s to %s
+MESSAGE_ACTION_INV_SHOW = {ACTION}* %s shows his %s to %s
+MESSAGE_ACTION_INV_DELETE = {ACTION}* %s throw his %s
+MESSAGE_ACTION_HOSPITAL_BED = {ACTION}* %s go to the bed
+MESSAGE_ACTION_ATM_WITHDRAW = {ACTION}* %s withdraw money
+MESSAGE_ACTION_ATM_DEPOSIT = {ACTION}* %s deposit money
+MESSAGE_ACTION_LIGHTS_VEHICLE_ON = {ACTION}* %s turns on vehicle lights (%s)
+MESSAGE_ACTION_LIGHTS_VEHICLE_OFF = {ACTION}* %s turns off vehicle lights (%s)
+MESSAGE_ACTION_OPEN_PDOOR = {ACTION}* %s opens property doors
+MESSAGE_ACTION_CLOSE_PDOOR = {ACTION}* %s closes property doors
+MESSAGE_ACTION_CARRY_WEAPON = {ACTION}* %s takes a weapon (%s)
+MESSAGE_ACTION_UNCARRY_WEAPON = {ACTION}* %s saves a weapon (%s)
+MESSAGE_ACTION_OPEN_GPS = {ACTION}* %s uses his GPS
+MESSAGE_ACTION_CLOSE_GPS = {ACTION}* %s saves his GPS
+MESSAGE_ACTION_OPEN_PHONE = {ACTION}* %s uses his phone
+MESSAGE_ACTION_CLOSE_PHONE = {ACTION}* %s saves his phone
+MESSAGE_ACTION_TOY_ATTACH = {ACTION}* %s attachs his toy (%s)
+MESSAGE_ACTION_TOY_REMOVE = {ACTION}* %s disattachs his toy (%s)
+MESSAGE_ACTION_EAT = {ACTION}* %s eat (%s)
+MESSAGE_ACTION_DRINK = {ACTION}* %s drink (%s)
+MESSAGE_ACTION_CLOTHES_CHANGE = {ACTION}* %s changes his clothes.
+MESSAGE_ACTION_CLOTHES_DELETE = {ACTION}* %s throws his clothes.
+MESSAGE_ACTION_GPS_TAXI_SHOW = {ACTION}* %s shows his GPS to %s
+MESSAGE_ACTION_WATCH = {ACTION}* %s checks the time on his watch
+MESSAGE_ACTION_ACTION = {ACTION}* %s %s
+MESSAGE_ACTION_DO = {ADFF2F}* %s (( %s ))
+MESSAGE_ACTION_BCHANNEL = {FFFFFF}%s (%d): (( %s ))
+MESSAGE_ERROR_SYNTAX = {ERROR}Invalid format.
+
+[menu]
+TEXTDRAW_PLAY = play
+TEXTDRAW_INFO = info
+TEXTDRAW_SETTINGS = settings
+TEXTDRAW_QUIT = quit
+
+DIALOG_SETTINGS_CAPTION = Settings
+DIALOG_SETTINGS_BODY_1 = Language\t%s\n
+DIALOG_SETTINGS_BODY_2 = Screen resolution\t%d/%d\n
+DIALOG_SETTINGS_BODY_3 = Change character (skin)\n
+DIALOG_SETTINGS_BODY_4 = Doubts channel\t%d\n
+DIALOG_SETTINGS_BODY_5 = Administrative messages\t%d\n
+DIALOG_SETTINGS_YES = Adjust
+DIALOG_SETTINGS_NO = Back
+
+DIALOG_LANG_CAPTION = Select your language
+DIALOG_LANG_BODY = %s
+DIALOG_LANG_YES = Continue
+DIALOG_LANG_NO = Cancel
+GAMETEXT_INFO_LANG_CHANGED = ~g~language changed
+
+DIALOG_AR_CAPTION = Screen resolution
+DIALOG_AR_BODY = Enter your screen resolution of GTA:SA to\ncalculate your aspect ratio.\nFor example: 1920, 1080
+DIALOG_AR_YES = Adjust
+DIALOG_AR_NO = Back
+MESSAGE_ERROR_WRONG_FORMAT = {ERROR}Invalid format.
+GAMETEXT_INFO_AR_RESTART = you should restart the game
+
+DIALOG_INFO_CAPTION = Information
+DIALOG_INFO_BODY = Watch the introduction\nHelp
+DIALOG_INFO_YES = Continue
+DIALOG_INFO_NO = Cancel
+
+[rent_vehicles]
+MESSAGE_ERROR_INV_SLOT = {ERROR}You do not have free slots in your inventory for vehicle keys.
+MESSAGE_ERROR_NO_LICENSE = {ERROR}You don't have driver licenser.
+MESSAGE_ERROR_VEHICLE_RENTED = {ERROR}You already have a rented vehicle, delete the keys in your inventory.
+MESSAGE_ERROR_NO_MONEY = {ERROR}You need %d$ to rent this vehicle.
+MESSAGE_ERROR_NO_LEVEL = {ERROR}You need be level %d to rent this vehicle.
+
+DIALOG_RENT_VEHICLE_CAPTION = Rent vehicle
+DIALOG_RENT_VEHICLE_BODY_1 = Vehicle: %s\nPrice: %d$\n\n
+DIALOG_RENT_VEHICLE_BODY_2 = You can use this vehicle until you leave it\nfor too long time or delete the keys.
+DIALOG_RENT_VEHICLE_YES = Rent
+DIALOG_RENT_VEHICLE_NO = Cancel
+GAMETEXT_INFO_VEHICLE_RENTED = ~g~vehicle rented
+
+[shared_commands]
+MESSAGE_ERROR_POSITION = {ERROR}You are not in the right place.
+MESSAGE_ERROR_NO_PKEYS = {ERROR}You do not have the keys of this property.
+MESSAGE_ERROR_NO_PSELL = {ERROR}This property is not for sale.
+GAMETEXT_INFO_PROPERTY_PURCHASED = ~g~property purchased
+GAMETEXT_INFO_DOOR_OPENED = ~g~opened
+GAMETEXT_INFO_DOOR_CLOSED = ~r~closed
+MESSAGE_ERROR_P_INV_SLOT = {ERROR}You do not have free slots in your inventory for the keys of the property.
+MESSAGE_ERROR_P_NO_MONEY = {ERROR}You do not have enough money to be able to buy the property.
+MESSAGE_ERROR_P_NO_LEVEL = {ERROR}You need to be level %d to buy this property.
+MESSAGE_ERROR_MAX_PROP = {ERROR}You can not have more properties, limit is %d properties per player.
+MESSAGE_ERROR_PROPERTY_RENTED = {ERROR}You already have a property rented, delete the keys in your inventory.
+MESSAGE_ERROR_PROPERTY_RENTED_DAYS = {ERROR}The property is already rented for many days as possible.
+
+MESSAGE_ERROR_NO_BSELL = {ERROR}This business is not for sale.
+MESSAGE_ERROR_B_INV_SLOT = {ERROR}You do not have free slots in your inventory for the keys of the business.
+MESSAGE_ERROR_B_NO_MONEY = {ERROR}You do not have enough money to be able to buy the business.
+MESSAGE_ERROR_B_NO_LEVEL = {ERROR}You need to be level %d to buy this business.
+MESSAGE_ERROR_MAX_BIZZ = {ERROR}You can not have more business, limit is %d business per player.
+GAMETEXT_INFO_BUSINESS_PURCHASED = ~g~business purchased
+MESSAGE_ERROR_NO_BKEYS = {ERROR}You do not have the keys of this business.
+
+DIALOG_RENT_PROPERTY_CAPTION = Rent property
+DIALOG_RENT_PROPERTY_BODY = Price per day: %d$\nHow many days do you want to rent the property?\n\nMinimum: %d day(s), maximum: %d day(s)
+DIALOG_RENT_PROPERTY_YES = Rent
+DIALOG_RENT_PROPERTY_NO = Cancel
+MESSAGE_ERROR_PRENT_DAYS = {ERROR}Number of days not valid.
+MESSAGE_ERROR_FORMAT = {ERROR}Invalid format.
+MESSAGE_ERROR_PRENT_NO_MONEY = {ERROR}You need %d$ to rent this property for %dday(s).
+GAMETEXT_INFO_PROPERTY_RENTED = ~g~property rented
+
+DIALOG_RENT_ADD_PROPERTY_CAPTION = Expand rent
+DIALOG_RENT_ADD_PROPERTY_BODY = Rent expires in %d day(s)\nPrice per day: %d$\nHow many days do you want to extend the rent?\n\nMinimum: %d day(s), maximum: %d day(s)
+DIALOG_RENT_ADD_PROPERTY_YES = Expand
+DIALOG_RENT_ADD_PROPERTY_NO = Cancel
+GAMETEXT_INFO_PROPERTY_RENT_ADD = ~g~rent expanded
+
+MESSAGE_ERROR_COMMAND = {ERROR}You can not use this command now.
+MESSAGE_ERROR_RESPOND_CSYNTAX = {ERROR}The use of this command is /reply [ID].
+MESSAGE_ERROR_PDISCONNECTED = {ERROR}The player is not connected.
+
+MESSAGE_ERROR_NO_TAXI_REQUEST = {ERROR}This player has not requested a taxi or this request has already been answered.
+MESSAGE_WARNING_TAXI_RESPONSE = {WARNING}Taxi driver %s has answered your call and is on the way.
+MESSAGE_INFO_TAXI_RESPONSE = {INFO}You have notified the client that you are going on the way.
+MESSAGE_ERROR_ALREADY_TAXI_JOB = {ERROR}You are transporting a customer at this time.
+
+[gps]
+GPS_OPTION_MINIMAP = Minimap
+GPS_OPTION_LOCATION = Location
+GPS_OPTION_ROUTE = GPS Route
+GPS_OPTION_CANCEL_ROUTE = Cancel route
+GPS_OPTION_CATEGORY_OBJECTIVES = Objectives
+GPS_OPTION_CATEGORY_PROPERTIES = My properties
+GPS_OPTION_CATEGORY_BUSINESS = My business
+GPS_OPTION_CATEGORY_VEHICLES = My vehicles
+
+GPS_CAT_HOSPITAL = Hospitals
+GPS_CAT_BANK = Banks
+GPS_CAT_POLICE = Police stations
+GPS_CAT_MECHANIC = Mechanics
+GPS_CAT_DRIVING_SCHOOL = Driving schools
+GPS_CAT_JOBS = Jobs
+GPS_CAT_REAL_ESTATES = Real estates
+GPS_CAT_BUSINESS = Business
+
+MESSAGE_ERROR_NO_GPS = {ERROR}You do not have GPS
+MESSAGE_ERROR_NO_ROUTE = {ERROR}There is no route.
+MESSAGE_INFO_ROUTE_CANCELED = {INFO}Route canceled.
+MESSAGE_ERROR_DS_ROUTE = {ERROR}You can not cancel this route.
+MESSAGE_ERROR_ROUTE_EXISTS = {ERROR}To create a new route, cancel the current one.
+
+DIALOG_CREATE_ROUTE_CAPTION = Create a route
+DIALOG_CREATE_ROUTE_BODY = Do you want to create a route to this place?
+DIALOG_CREATE_ROUTE_YES = Route
+DIALOG_CREATE_ROUTE_NO = Close
+
+MESSAGE_INFO_ROUTE = {INFO}Calculated route.
+MESSAGE_ERROR_ROUTE = {ERROR}The route can not be calculated.
+GAMETEXT_INFO_ROUTE_FINISH = ~g~destination reached
+
+[phone]
+PHONE_NUMBER_TAXI = taxi
+PHONE_1_OPTION = Turn on
+PHONE_2_OPTION = Phonebook
+PHONE_3_OPTION = Call
+PHONE_4_OPTION = Services
+PHONE_5_OPTION = Turn off
+PHONE_6_OPTION = Select
+PHONE_7_OPTION = Lock
+PHONE_8_OPTION = Back
+PHONE_9_OPTION = Delete
+PHONE_10_OPTION = Add
+PHONE_11_OPTION = Confirm
+PHONE_12_OPTION = Dialling...
+PHONE_13_OPTION = Hang up (%s)
+PHONE_14_OPTION = Respond (%s)
+PHONE_15_OPTION = End (%d:%02d)
+PHONE_16_OPTION = Hang up
+PHONE_17_OPTION = Incoming...
+PHONE_18_OPTION = + Add
+PHONE_19_OPTION = Name\n%s
+PHONE_20_OPTION = Number\n_
+PHONE_21_OPTION = Number\n%d
+
+MESSAGE_ERROR_NO_PHONE = {ERROR}You do not have a phone.
+MESSAGE_ERROR_NUMBER_NO_EXISTS = {ERROR}Phone number %s does not exist.
+MESSAGE_ERROR_NUMBER_OCCUPIED = {ERROR}Phone number %s is busy or out of range.
+MESSAGE_PHONE_CHAT = {PHONE}[Phone] %s: %s
+MESSAGE_INFO_CONTACT_DELETED = {INFO}Contact deleted.
+MESSAGE_ERROR_PB_FULL = {ERROR}Your phonebook is full.
+MESSAGE_INFO_CONTACT_ADDED = {INFO}Contact added.
+MESSAGE_ERROR_PB_ADD = {ERROR}Enter name and number to add a contact.
+MESSAGE_ERROR_CALL_SYNTAX = {ERROR}Syntax: /call [phone number].
+
+DIALOG_PB_CONTACT_CAPTION = Contact name
+DIALOG_PB_CONTACT_BODY = Enter the contact name\nIt must contain at most %d alphanumeric characters
+DIALOG_PB_CONTACT_YES = Confirm
+DIALOG_PB_CONTACT_NO = Close
+MESSAGE_ERROR_PB_NAME_FORMAT = {ERROR}Invalid format.
+
+[toys]
+TEXTDRAW_TOYS_TITLE = Toys
+TOY_1_BONE = spine
+TOY_2_BONE = head
+TOY_3_BONE = left upper arm
+TOY_4_BONE = right upper arm
+TOY_5_BONE = left hand
+TOY_6_BONE = right hand
+TOY_7_BONE = left thigh
+TOY_8_BONE = right thigh
+TOY_9_BONE = left foot
+TOY_10_BONE= right foot
+TOY_11_BONE = right calf
+TOY_12_BONE = left calf
+TOY_13_BONE = left forearm
+TOY_14_BONE = right forearm
+TOY_15_BONE = left shoulder
+TOY_16_BONE = right shoulder
+TOY_17_BONE = neck
+TOY_18_BONE = jaw
+
+DIALOG_CONFIG_TOY_CAPTION = Adjust toy
+DIALOG_CONFIG_TOY_BODY = Currently this toy is attached in: %s\nDo you want to change the part of the body in which the toy will be attached?
+DIALOG_CONFIG_TOY_YES = Yes
+DIALOG_CONFIG_TOY_NO = No
+
+MESSAGE_ERROR_TOY_TOO_BIG = {ERROR}Toy is too big.
+
+DIALOG_TOYS_CAPTION = Toys
+DIALOG_TOYS_BODY = {FFCCFF}|--- Attached ---|\n%s|--- Disattached ---|\n%s
+DIALOG_TOYS_YES = Options
+DIALOG_TOYS_NO = Cancel
+
+DIALOG_TOY_ATTACHED_CAPTION = Toy
+DIALOG_TOY_ATTACHED_BODY = Disattach\nAdjust\nDelete
+DIALOG_TOY_ATTACHED_YES = Continue
+DIALOG_TOY_ATTACHED_NO = Cancel
+
+DIALOG_TOY_CAPTION = Toy
+DIALOG_TOY_BODY = Attach\nDelete
+DIALOG_TOY_YES = Continue
+DIALOG_TOY_NO = Cancel
+
+MESSAGE_ERROR_NO_WATCH = {ERROR}You do not have a watch.
+
+[weapons]
+DIALOG_WEAPONS_CAPTION = Weapons
+DIALOG_WEAPONS_BODY = Weapon\tAmmo\n{FFCCFF}|--- Carried ---|\n%s|--- Saved ---|\n%s
+DIALOG_WEAPONS_YES = Options
+DIALOG_WEAPONS_NO = Cancel
+
+DIALOG_WEAPON_CARRIED_CAPTION = Weapon
+DIALOG_WEAPON_CARRIED_BODY = Save\nDelete
+DIALOG_WEAPON_CARRIED_YES = Continue
+DIALOG_WEAPON_CARRIED_NO = Cancel
+
+DIALOG_WEAPON_CAPTION = Weapon
+DIALOG_WEAPON_BODY = Carry\nDelete
+DIALOG_WEAPON_YES = Continue
+DIALOG_WEAPON_NO = Cancel
+
+MESSAGE_ERROR_WEAPON_MAX = {ERROR}You can only carry %d weapons in hand, save some weapon first.
+
+[business]
+DIALOG_DUPLICATE_KEYS_CAPTION = Duplicate keys
+DIALOG_AMMO_CAPTION = Ammo for your weapons
+
+BUSINESS_TYPE_GENERAL_STORE = general store
+BUSINESS_TYPE_AMMUNATION = armory
+BUSINESS_TYPE_CLOTHING_STORE = clothing store
+BUSINESS_TYPE_RESTAURANT = restaurant
+BUSINESS_TYPE_BURGER = burger
+BUSINESS_TYPE_PIZZA = pizza
+BUSINESS_TYPE_DISCO = disco
+BUSINESS_TYPE_BAR = bar
+BUSINESS_TYPE_ELECTRONICS = electronic shop
+BUSINESS_TYPE_HARDWARE_STORE = hardware store
+
+BUSINESS_SALE_TYPE_FOOD = food
+BUSINESS_SALE_TYPE_DRINK = drink
+BUSINESS_SALE_TYPE_CLOTHES = clothes
+BUSINESS_SALE_TYPE_TOYS = accessories
+BUSINESS_SALE_TYPE_ELECTRONICS = electronics
+BUSINESS_SALE_TYPE_BAR = bar
+BUSINESS_SALE_TYPE_WEAPONS = weapons
+BUSINESS_SALE_TYPE_AMMO = ammo
+BUSINESS_SALE_TYPE_ALL = buy products
+BUSINESS_SALE_TYPE_HARDWARE = hardware
+BUSINESS_SALE_TYPE_CIGARETTES = cigarettes
+
+BUSINESS_PRODUCT_WINE = wine
+BUSINESS_PRODUCT_SPRUNK = sprunk
+BUSINESS_PRODUCT_DUPLICATE_KEYS = duplicate keys
+BUSINESS_PRODUCT_NORMAL_AMMO = normal ammo
+
+DIALOG_BUSINESS_CATALOG_CAPTION = Products
+DIALOG_BUSINESS_CATALOG_HEADER = Product\tPrice\tStock\n
+DIALOG_BUSINESS_CATALOG_NO_STOCK = No stock
+DIALOG_BUSINESS_CATALOG_NEXT_PAGE = \t{FFFFFF}Next page
+
+TEXTDRAW_BCATALOG_TITLE = ~y~PRODUCTS
+TEXTDRAW_BCATALOG_ID_DOWN = ~d~ ID
+TEXTDRAW_BCATALOG_ID_UP = ~u~ ID
+TEXTDRAW_BCATALOG_PRODUCT = Product
+TEXTDRAW_BCATALOG_PRICE_DOWN = ~d~ Price
+TEXTDRAW_BCATALOG_PRICE_UP = ~u~ Price
+TEXTDRAW_BCATALOG_STOCK_DOWN = ~d~ Stock
+TEXTDRAW_BCATALOG_STOCK_UP = ~u~ Stock
+TEXTDRAW_BCATALOG_SALES_DOWN = ~d~ Sales
+TEXTDRAW_BCATALOG_SALES_UP = ~u~ Sales
+TEXTDRAW_BCATALOG_ADD_PRODUCT = + Add product
+
+MESSAGE_ERROR_NO_PRODUCTS = {ERROR}There are no products.
+MESSAGE_ERROR_NO_STOCK = {ERROR}There are no stock of this product.
+MESSAGE_ERROR_LEVEL = {ERROR}You need to be %d level to buy this product.
+MESSAGE_ERROR_NO_MONEY = {ERROR}You do not have enough money to buy this product.
+GAMETEXT_INFO_PRODUCT_BOUGHT = ~g~product bought
+MESSAGE_ERROR_INV = {ERROR}You do not have free slots in your inventory for the product or you already have this product.
+MESSAGE_ERROR_CLOTHES = {ERROR}There are no more clothes available for you.
+MESSAGE_ERROR_TOYS = {ERROR}There are no more toys available for you.
+MESSAGE_ERROR_CLOTHES_ADD = {ERROR}You can not have more clothes.
+MESSAGE_ERROR_TOY_ADD = {ERROR}You can not have more accessories.
+MESSAGE_ERROR_NO_MASTER_KEYS = {ERROR}You do not have a key (you can only duplicate the master keys).
+MESSAGE_ERROR_LOCATION = {ERROR}You are not in your business.
+MESSAGE_ERROR_GUN_LICENSE = {ERROR}You need to have a gun license to buy this products.
+MESSAGE_ERROR_NO_WEAPONS = {ERROR}You do not have any weapon that need ammo.
+
+DIALOG_BUSINESS_CAPTION = Business
+DIALOG_BUSINESS_BODY = Change schedule\nSafe money\nRadio\nProducts
+DIALOG_BUSINESS_YES = Continue
+DIALOG_BUSINESS_NO = Close
+
+DIALOG_BUSINESS_SCHEDULE_CAPTION = Schedule
+DIALOG_BUSINESS_SCHEDULE_BODY_1 = Current schedule: %02d:00 - %02d:00\n\n
+DIALOG_BUSINESS_SCHEDULE_BODY_2 = Enter the opening time and the closing time separated by a space\nFor example: 8 22
+DIALOG_BUSINESS_SCHEDULE_YES = Change
+DIALOG_BUSINESS_SCHEDULE_NO = Back
+MESSAGE_ERROR_INVALID_FORMAT = {ERROR}Invalid format.
+
+DIALOG_BUSINESS_MONEY_CAPTION = Safe money
+DIALOG_BUSINESS_MONEY_BODY = Deposit\nWithdraw
+DIALOG_BUSINESS_MONEY_YES = Continue
+DIALOG_BUSINESS_MONEY_NO = Back
+
+DIALOG_BUSINESS_DEPOSIT_CAPTION = Safe money (deposit)
+DIALOG_BUSINESS_DEPOSIT_BODY = Money in the safe: %d$\nEnter the amount of money to deposit:
+DIALOG_BUSINESS_DEPOSIT_YES = Deposit
+DIALOG_BUSINESS_DEPOSIT_NO = Close
+MESSAGE_ERROR_DEPOSIT_NO_MONEY = You do not have enough money
+
+DIALOG_BUSINESS_WITHDRAW_CAPTION = Safe money (withdraw)
+DIALOG_BUSINESS_WITHDRAW_BODY = Money in the safe: %d$\nEnter the amount of money to withdraw:
+DIALOG_BUSINESS_WITHDRAW_YES = Withdraw
+DIALOG_BUSINESS_WITHDRAW_NO = Close
+MESSAGE_ERROR_WITHDRAW_NO_MONEY = There is not that amount of money in the safe.
+
+GAMETEXT_INFO_CHANGES_SAVED = ~g~changes applied
+
+MESSAGE_ERROR_ADD_NO_PRODUCTS = {ERROR}There are no more products available for your business.
+DIALOG_BUSINESS_EPRODUCT_CAPTION = Edit product
+DIALOG_BUSINESS_EPRODUCT_BODY = Sale price\nAdd stock\nDelete product
+DIALOG_BUSINESS_EPRODUCT_YES = Continue
+DIALOG_BUSINESS_EPRODUCT_NO = Close
+
+DIALOG_BP_EDIT_PRICE_CAPTION = Price
+DIALOG_BP_EDIT_PRICE_BODY = Current retail price: %d$\nProduct cost: %d$\n\nEnter the new retail price:
+DIALOG_BP_EDIT_PRICE_YES = Change
+DIALOG_BP_EDIT_PRICE_NO = Back
+MESSAGE_ERROR_BP_EDIT_PRICE = {ERROR}The price is not valid, enter a price according to reality.
+
+DIALOG_BP_DELETE_CAPTION = Delete product
+DIALOG_BP_DELETE_BODY = Are you sure you want to delete this product from your business?\nThis option is irreversible and you will not recover the cost of the products.
+DIALOG_BP_DELETE_YES = Delete
+DIALOG_BP_DELETE_NO = Back
+
+DIALOG_BP_ADD_STOCK_CAPTION = Add stock
+DIALOG_BP_ADD_STOCK_BODY = Product cost: %d$\nEnter the amount of stock to add:
+DIALOG_BP_ADD_STOCK_YES = Continue
+DIALOG_BP_ADD_STOCK_NO = Back
+MESSAGE_ERROR_BP_STOCK = {ERROR}The amount of stock entered is not valid.
+
+DIALOG_BPASTOCK_CONFIRM_CAPTION = Confirm
+DIALOG_BPASTOCK_CONFIRM_BODY = Amount: %d\nTotal cost: %d$\n\nMoney in safe: %d$
+DIALOG_BPASTOCK_CONFIRM_YES = Confirm
+DIALOG_BPASTOCK_CONFIRM_NO = Close
+MESSAGE_ERROR_ASTOCK_NO_MONEY = {ERROR}There is not enough money in your business safe.
+
+[clothing]
+TEXTDRAW_CHARACTER_MENU_TITLE = Character
+TEXTDRAW_CLOTHES_MENU_TITLE = Clothes
+
+MESSAGE_ERROR_CHAR_TIME = {ERROR}Date on which you can change your character: %s (%d remaining days)
+DIALOG_CHAR_INFO_CAPTION = Information
+DIALOG_CHAR_INFO_BODY_1 = {INFO}You can only change your character every {67bf4a}%d days.\n{INFO}Price of the change is {67bf4a}%d$ of game.\n\n
+DIALOG_CHAR_INFO_BODY_2 = {INFO}When you change your character you will lose all the clothes and the configuration of the toys.
+DIALOG_CHAR_INFO_YES = Accept
+DIALOG_CHAR_INFO_NO = Back
+MESSAGE_ERROR_NO_MONEY = {ERROR}You need %d$ to change your character.
+GAMETEXT_INFO_CHAR_CHANGED = ~g~characted changed
+MESSAGE_ERROR_SAME_CLOTHE = {ERROR}You are already wearing those clothes.
+GAMETEXT_INFO_CLOTHES_CHANGED = ~g~clothes changed
+GAMETEXT_INFO_CLOTHES_DELETED = ~r~clothes deleted
+DIALOG_CLOTHES_CAPTION = Clothes
+DIALOG_CLOTHES_BODY = Wear\nDelete
+DIALOG_CLOTHES_YES = Continue
+DIALOG_CLOTHES_NO = Close
+MESSAGE_ERROR_DEFAULT_CLOTHES = {ERROR}You can not delete this clothes because it's your character's default clothes.
+
+[jobs]
+JOB_TAXI = taxi driver
+JOB_TRUCKER = trucker
+JOB_GUNSMITH = assembler
+
+TEXTDRAW_JOB_LEVEL_UP = Congratulations, your %s lever now is %d.
+
+DIALOG_HEADER = Job\tLevel\tExperience\tJobs done\n
+DIALOG_CAPTION = Jobs
+
+MESSAGE_ERROR_ALREADY_IN_JOB = {ERROR}You have to leave your current job first (%s).
+MESSAGE_INFO_JOB_STARTED = {INFO}Congratulations! You have signed a temporary contract, for stop working come here again.
+GAMETEXT_INFO_JOB_STARTED = ~g~job obtained
+GAMETEXT_INFO_JOB_FINISHED = ~g~job ended
+MESSAGE_ERROR_LEVEL = {ERROR}You need to be level %d to get this job.
+MESSAGE_ERROR_JOB_LEVEL = {ERROR}You need to be %d level at work.
+MESSAGE_ERROR_DRIVER_LICENSE = {ERROR}You need a driver's license for this job.
+
+[taxi]
+TEXTDRAW_TAXIMETER = ~y~Taximeter:_~w~%d$
+
+GAMETEXT_INFO_TAXI_REQUESTED = ~g~taxi requested
+GAMETEXT_INFO_TAXI_CANCELLED = ~r~taxi canceled
+MESSAGE_WARNING_TAXI_CUSTOMER = {WARNING}[Station] {FFFFFF}There is a new customer requesting a taxi in %s (%.2f Km). Type {WARNING}/reply %d.
+MESSAGE_ERROR_TAXI_REQUEST = {ERROR}You can not request a taxi at this time.
+MESSAGE_ERROR_NO_MONEY = {ERROR}You do not have money to pay for the taxi.
+
+[trucker]
+TEXTDRAW_1_CANCEL = You have ~y~%d seconds ~w~to get the trailer or job will be canceled.
+TEXTDRAW_2_CANCEL = You have ~y~%d seconds ~w~to get back into the truck or the job will be canceled.
+
+TEXTDRAW_1_AUX = Status: ~y~loading (%ds)
+TEXTDRAW_2_AUX = Status: ~y~unloading (%ds)
+TEXTDRAW_3_AUX = Truck load status: ~g~good
+TEXTDRAW_4_AUX = Truck load status: ~y~moderate
+TEXTDRAW_5_AUX = Truck load status: ~r~bad
+
+MESSAGE_WARNING_LOAD_TRUCK = {WARNING}The truck is not loaded, go to the loading point.
+MESSAGE_INFO_TRUCK_LOADED = {INFO}The truck has been loaded, delivers the cargo in the best conditions to get payment as much as possible.
+MESSAGE_ERROR_TRUCK_CANCELED = {ERROR}The work has been canceled because you have left the truck.
+MESSAGE_WARNING_TRUCK_COMPLETE = {WARNING}The delivery is complete, you can return to the loading point to continue working.
+MESSAGE_WARNING_NEED_TRAILER = {WARNING}You need a trailer to load the truck.
+GAMETEXT_INFO_TRAILER_ATTACHED = ~g~trailer
+MESSAGE_WARNING_TRUCK_POSITION = {WARNING}Place the truck correctly to (un)load it.
+
+[interest_points]
+DIALOG_INTEREST_POINT_CAPTION = Places of interest
+DIALOG_INTEREST_POINT_BODY = Driving school\nGeneral store\nElectronic shop\nTruckers\nTaxis
+DIALOG_INTEREST_POINT_YES = Continue
+DIALOG_INTEREST_POINT_NO = Close
+MESSAGE_INFO_INTEREST_POINT = {INFO}The position of this place has been marked on the map.
+
+[gunsmith]
+TEXTDRAW_KEY = ~w~Press ~y~%s ~w~repeatedly
+
+MESSAGE_ERROR_NO_JOB = {ERROR}You are not assembler.
+MESSAGE_ERROR_GSPOINT_IN_USE = {ERROR}This work table is in use.
+MESSAGE_ERROR_NO_PIECES = {ERROR}You have no pieces to start assembling.
+MESSAGE_ERROR_PIECES = {ERROR}You already have enough pieces to assemble.
+MESSAGE_INFO_PIECES = {INFO}Now you have the necessary parts, go to a work table to start assembling.
+MESSAGE_INFO_PIECE_PLACE = {INFO}Place the weapon box on the table behind.
+
+[gun_license]
+TEST_1_QUESTION = What types of weapons does the license allow me to carry?
+TEST_1_VALID_ANSWER = 2
+TEST_1_1_ANSWER = All weapons
+TEST_1_2_ANSWER = Only weapons sold in authorized shops
+TEST_1_3_ANSWER = Rocket launchers and bombs
+
+TEST_2_QUESTION = Can you carry weapons in public places?
+TEST_2_VALID_ANSWER = 1
+TEST_2_1_ANSWER = No, it is illegal
+TEST_2_2_ANSWER = Obviously
+TEST_2_3_ANSWER = Yes, when is necessary
+
+TEST_3_QUESTION = In what case can I use a weapon?
+TEST_3_VALID_ANSWER = 3
+TEST_3_1_ANSWER = When I want
+TEST_3_2_ANSWER = When is necessary
+TEST_3_3_ANSWER = Only to warn in self-defense
+
+MESSAGE_ERROR_INV_SLOT = {ERROR}You do not have free slots in your inventory.
+MESSAGE_ERROR_ALREADY_LICENSE = {ERROR}You already have a weapons license.
+MESSAGE_ERROR_NO_MONEY = {ERROR}You do not have enough money.
+
+DIALOG_LICENSE_INFO_CAPTION = Theoric exam
+DIALOG_LICENSE_INFO_BODY_1 = Do the test has a cost of %d$.\n
+DIALOG_LICENSE_INFO_BODY_2 = If you pass you will get the license.\n
+DIALOG_LICENSE_INFO_BODY_3 = If you don't pass you will have to repeat the exam and you will lose the money.
+DIALOG_LICENSE_INFO_YES = Start
+DIALOG_LICENSE_INFO_NO = Cancel
+
+MESSAGE_ERROR_LICENSE_TEST = {ERROR}You have not passed the test.
+GAMETEXT_INFO_LICENSE_PASSED = ~g~license obtained
+
+[real_estate]
+DIALOG_CAPTION = Real estate
+DIALOG_HEADER = Property\tSale price\n
+
+TYPE_PROPERTY = Property
+TYPE_BUSINESS = Business
+
+MESSAGE_ERROR_NO_PROPERTIES = {ERROR}You do not have any property or business to sell.
+GAMETEXT_INFO_PROPERTY_SOLD = ~g~property sold
+GAMETEXT_INFO_BUSINESS_SOLD = ~g~business sold
+
+[intro]
+INTRO_0_AUDIO = 8000 https://www.dropbox.com/s/wcsbjm7dvekjeto/welcome.mp3?dl=1
+INTRO_1_AUDIO = 13000 https://www.dropbox.com/s/ezccj45mc0lhmax/screen.mp3?dl=1
+INTRO_2_AUDIO = 17000 https://www.dropbox.com/s/rzad9u4e5a52h6v/clothes.mp3?dl=1
+INTRO_3_AUDIO = 9000 https://www.dropbox.com/s/siksmpfmn8ah36b/driving_school.mp3?dl=1
+INTRO_4_AUDIO = 14000 https://www.dropbox.com/s/ixrn1n65m1oca1x/vehicles.mp3?dl=1
+INTRO_5_AUDIO = 16000 https://www.dropbox.com/s/v5wxpjd2xkasp6t/properties.mp3?dl=1
+INTRO_6_AUDIO = 26000 https://www.dropbox.com/s/x6oo06ovh1yrcgz/business.mp3?dl=1
+INTRO_7_AUDIO = 10000 https://www.dropbox.com/s/kwobunx8i0tjfvy/keys.mp3?dl=1
+INTRO_8_AUDIO = 12000 https://www.dropbox.com/s/1rlh4cs1droyxz0/jobs.mp3?dl=1
+INTRO_9_AUDIO = 15000 https://www.dropbox.com/s/sua6ior4f4fi56d/end.mp3?dl=1
+INTRO_10_AUDIO = 60000 https://www.dropbox.com/s/i0d8hrvntthn61p/vctheme.mp3?dl=1
+
+TEXTDRAW_EXIT = Press ~y~%s ~w~to exit
+TEXT_CODING = Coding
+TEXT_OTHERS = Others
+
+DIALOG_INTRO_INFO_CAPTION = Introduction
+DIALOG_INTRO_INFO_BODY = Do you want to see a little introduction?\nIt will serve to guide you.
+DIALOG_INTRO_INFO_YES = Yes
+DIALOG_INTRO_INFO_NO = No
+
+[help]
+DIALOG_HELP_CAPTION = Help
+DIALOG_HELP_BODY = General\nCharacter\nProperties\nVehicles\nBusiness\nJobs
+DIALOG_HELP_YES = >>
+DIALOG_HELP_NO = X
+
+DIALOG_HELP_GENERAL_CAPTION = General
+DIALOG_HELP_GENERAL_BODY_1 = The server is in BETA phase so it may contain errors.\nA day in the game lasts three real hours.\nTo report a player use /report.\n
+DIALOG_HELP_GENERAL_BODY_2 = Use the command /doubt to ask for the doubt channel.\n\nFor more information visit %s.
+DIALOG_HELP_GENERAL_YES = Close
+
+DIALOG_HELP_CHARACTER_CAPTION = Character
+DIALOG_HELP_CHARACTER_BODY_1 = You can buy clothes and accessories for your character.\nToys must be adjusted for each clothing.\n
+DIALOG_HELP_CHARACTER_BODY_2 = You can change your character using /menu in the settings part.
+DIALOG_HELP_CHARACTER_YES = Close
+
+DIALOG_HELP_PROPERTIES_CAPTION = Properties
+DIALOG_HELP_PROPERTIES_BODY_1 = You can have %d properties, purchased or rented.\nUse the command /door to open or close a door.\n
+DIALOG_HELP_PROPERTIES_BODY_2 = o sell your property go to a real estate.\nTo stop renting a property, delete the key of your inventory.\n
+DIALOG_HELP_PROPERTIES_BODY_3 = When you sell a house all the keys will be deleted.
+DIALOG_HELP_PROPERTIES_YES = Close
+
+DIALOG_HELP_VEHICLES_CAPTION = Vehicles
+DIALOG_HELP_VEHICLES_BODY_1 = You can have %d vehicles, purchased or rented.\nTo sell your vehicle go to a dealer.\n
+DIALOG_HELP_VEHICLES_BODY_2 = To stop renting a vehicle delete the key of your inventory.\nWhen you sell a vehicle all the keys will be deleted.\n
+DIALOG_HELP_VEHICLES_BODY_3 = Go to a workshop to repair or tune your vehicle.
+DIALOG_HELP_VEHICLES_YES = Close
+
+DIALOG_HELP_BUSINESS_CAPTION = Business
+DIALOG_HELP_BUSINESS_BODY_1 = You can have %d business.\nTo sell your business go to a real estate.\nWhen you sell a business all the keys will be deleted.\n
+DIALOG_HELP_BUSINESS_BODY_2 = Use the /business command within your business to manage it.
+DIALOG_HELP_BUSINESS_YES = Close
+
+DIALOG_HELP_JOBS_CAPTION = Jobs
+DIALOG_HELP_JOBS_BODY_1 = Jobs are temporary.\nThe experience and level of the jobs are saved.\n
+DIALOG_HELP_JOBS_BODY_2 = Use /jobs command to see your jobs experience.
+DIALOG_HELP_JOBS_YES = Close
+
+[help_channel]
+MESSAGE_ERROR_SYNTAX = {ERROR}Syntax: /doubt [question].
+MESSAGE_ERROR_TIME = {ERROR}You must wait %d seconds to send a question again.
+MESSAGE_HELP_CHANNEL = {INFO}[Doubts] [%s] {FFFFFF}%s (%d): %s
+
+[car_workshop]
+DIALOG_PAINT_COLORS_CAPTION = Colors
+DIALOG_REMOVE_COMPONENT_CAPTION = Remove component
+DIALOG_PAINTJOBS_CAPTION = Paintjobs
+DIALOG_DELETE_PAINTJOB = Remove paintjob
+
+COMPONENT_0_PART_CL = Spoilers
+COMPONENT_1_PART_CL = Hoods
+COMPONENT_2_PART_CL = Roofs
+COMPONENT_3_PART_CL = Right sideskirts
+COMPONENT_4_PART_CL = Left sideskirts
+COMPONENT_5_PART_CL = Lamps
+COMPONENT_6_PART_CL = Nitro
+COMPONENT_7_PART_CL = Exhausts
+COMPONENT_8_PART_CL = Wheels
+COMPONENT_9_PART_CL = Stereos
+COMPONENT_10_PART_CL = Hydraulics
+COMPONENT_11_PART_CL = Front bumpers
+COMPONENT_12_PART_CL = Rear bumpers
+COMPONENT_13_PART_CL = Front bullbars
+COMPONENT_14_PART_CL = Rear bullbars
+COMPONENT_15_PART_CL = Right vents
+COMPONENT_16_PART_CL = Left vents
+COMPONENT_17_PART_CL = Front signals
+COMPONENT_18_PART_CL = Fire exhausts
+
+COMPONENT_0_PART = Spoiler
+COMPONENT_1_PART = Hood
+COMPONENT_2_PART = Roof
+COMPONENT_3_PART = Right sideskirt
+COMPONENT_4_PART = Left sideskirt
+COMPONENT_5_PART = Lamp
+COMPONENT_6_PART = Nitro
+COMPONENT_7_PART = Exhaust
+COMPONENT_8_PART = Wheel
+COMPONENT_9_PART = Stereo
+COMPONENT_10_PART = Hydraulics
+COMPONENT_11_PART = Front bumper
+COMPONENT_12_PART = Rear bumper
+COMPONENT_13_PART = Front bullbar
+COMPONENT_14_PART = Rear bullbar
+COMPONENT_15_PART = Right vent
+COMPONENT_16_PART = Left vent
+COMPONENT_17_PART = Front signal
+COMPONENT_18_PART = Fire exhaust
+
+MESSAGE_ERROR_NO_VEHICLE = {ERROR}You are not driving.
+MESSAGE_ERROR_VEH_ACCESS = {ERROR}You can not modify this vehicle because you do not have the keys.
+MESSAGE_ERROR_NO_MONEY = {ERROR}You do not have enough money.
+MESSAGE_ERROR_ENGINE = {ERROR}You must turn off the engine of the vehicle.
+MESSAGE_ERROR_TUNING = {ERROR}This vehicle can not be tunned.
+MESSAGE_ERROR_PAINTJOB = {ERROR}This vehicle can not be paintjobed.
+MESSAGE_ERROR_NO_COMPONENTS = {ERROR}This vehicle is not tunned.
+GAMETEXT_INFO_WORK_DONE = ~g~job done
+
+DIALOG_CAR_WORKSHOP_CAPTION = Car workshop
+DIALOG_CAR_WORKSHOP_OWNER_BODY = Repair\t%d$\nPaint\nTuning\nRemove component\t%d$\nPaintjob\t%d$
+DIALOG_CAR_WORKSHOP_BODY = Repair
+DIALOG_CAR_WORKSHOP_YES = Continue
+DIALOG_CAR_WORKSHOP_NO = Close
+
+DIALOG_CAR_PAINT_CAPTION = Paint vehicle
+DIALOG_CAR_PAINT_BODY = Primary color\t%d$\nSecondary color\t%d$
+DIALOG_CAR_PAINT_YES = Continue
+DIALOG_CAR_PAINT_NO = Close
+
+[admin_player]
+DIALOG_INFO_PERM_BANNED_CAPTION = Warning!
+DIALOG_INFO_PERM_BANNED_BODY = Your account or your IP address is permanently banned.\n\nID: %d\nReason: %s\nDate: %s
+DIALOG_INFO_PERM_BANNED_YES = Close
+
+DIALOG_INFO_TEMP_BANNED_CAPTION = Warning!
+DIALOG_INFO_TEMP_BANNED_BODY = Your account or your IP address is temporarily banned.\n\nID: %d\nReason: %s\nDate: %s\n\nCurrent date: %s\nUnban date: %s
+DIALOG_INFO_TEMP_BANNED_YES = Close
+MESSAGE_WARNING_TEMP_BAN = {WARNING}Your account has been banned for %d days.
+
+MESSAGE_WARNING_UNBANNED = {WARNING}Your account has been unbanned.
+MESSAGE_WARNING_KICKED = {WARNING}You have been kicked from the server, reason: %s.
+
+MESSAGE_ERROR_PDISCONNECTED = {ERROR}Player is not connected.
+MESSAGE_ERROR_SYNTAX_REPORT = {ERROR}Syntax: /report <Player ID/Name> <reason>
+MESSAGE_WARNING_REPORT = {WARNING}%s (%d) reported to %s (%d): %s
+MESSAGE_INFO_REPORT_SENT = {INFO}Your report was sent to online administrators.
+
+[forum]
+MESSAGE_WARNING_REGISTERED = {WARNING}Your account has been registered in the forums: %s.
+
+[admin_messages]
+MESSAGE_ADMIN_KICK = {ADMIN}Administrator %s (%d) kicked to %s (%d): %s
+MESSAGE_ADMIN_PERM_BAN = {ADMIN}Administrator %s (%d) banned (permanently) to %s (%d): %s
+MESSAGE_ADMIN_TEMP_BAN = {ADMIN}Administrator %s (%d) banned (temporarily) to %s (%d): %s
+MESSAGE_ADMIN_AC_KICK = {ADMIN}Anticheat kicked to %s (%d): %s
+
+[vinv]
+TEXTDRAW_TITLE = BOOT
+
+MESSAGE_ERROR_NO_ONFOOT = {ERROR}You are not on foot.
+MESSAGE_ERROR_NO_VEHICLE = {ERROR}There is no vehicle nearby.
+MESSAGE_ERROR_NO_INVENTORY = {ERROR}This vehicle does not have boot.
+MESSAGE_ERROR_NO_ACCESS = {ERROR}You do not have the keys of this vehicle.
+
+[autopilot]
+TEXTDRAW_DESTROYED = ~r~The vehicle has been destroyed because you left it.
+TEXTDRAW_WARNING = You have ~y~%d seconds ~w~to get back to the vehicle or will be destroyed.
+
+MESSAGE_ERROR_NO_VEHICLE = {ERROR}This vehicle is waiting for another person.
+
+DIALOG_AUTOPILOT_PLACES_CAPTION = Places of interest
+DIALOG_AUTOPILOT_PLACES_BODY = Open GPS\nDriving school\nGeneral store\nElectronic shop\nTruckers\nTaxis
+DIALOG_AUTOPILOT_PLACES_YES = Go
+DIALOG_AUTOPILOT_PLACES_NO = Close
+MESSAGE_ERROR_NO_GPS = {ERROR}You do not have GPS.
+
+GAMETEXT_INFO_ARRIVED = ~g~destination reached
+MESSAGE_ERROR_NO_MONEY = {ERROR}You do not have money to continue paying.
+MESSAGE_ERROR_PATH = {ERROR}An error occurred while trying to calculate the route.
+MESSAGE_INFO_TAXI = {INFO}There is a taxi waiting for you nearby.
+
+[admin_chat]
+MESSAGE_CHAT_DEVELOPER = {99CC33}- Developer(%d) %s(%d): %s
+MESSAGE_CHAT_ADMIN = {99CC33}- Administrator(%d) %s(%d): %s
+MESSAGE_CHAT_MODERATOR = {99CC33}- Moderator(%d) %s(%d): %s
+
+[achievements]
+TD_ACHIEVEMENT_NEW_USER = Welcome to %s
+TD_ACHIEVEMENT_RENT_CAR = Rent your first vehicle
+TD_ACHIEVEMENT_PURCHASE_CAR = Purchase your first vehicle
+TD_ACHIEVEMENT_PURCHASE_USED_CAR = Purchase your first used vehicle
+TD_ACHIEVEMENT_DRIVER_LICENSE = Get driver's license
+TD_ACHIEVEMENT_HOSPITAL_BED = ~y~Doctor!\n~w~Cure yourself in the hospital
+TD_ACHIEVEMENT_USE_ATM = ~y~Businessman\n~w~Use an ATM for the first time
+TD_ACHIEVEMENT_PURCHASE_PROPERTY = ~y~American dream!\n~w~Purchase your first property in Vice City
+TD_ACHIEVEMENT_RENT_PROPERTY = Rent your first property
+TD_ACHIEVEMENT_PURCHASE_BUSINESS = ~y~Businessman\n~w~Purchase your first business
+TD_ACHIEVEMENT_GUN_LICENSE = ~y~Gunman!\n~w~Get weapons license
+TD_ACHIEVEMENT_INTRO = ~y~Curious!\n~w~Watch introduction
+
+ACHIEVEMENT_NEW_USER = new user
+ACHIEVEMENT_RENT_CAR = rent a vehicle
+ACHIEVEMENT_PURCHASE_CAR = purcharse your first vehicle
+ACHIEVEMENT_PURCHASE_USED_CAR = purcharse your first used vehicle
+ACHIEVEMENT_DRIVER_LICENSE = get driver license
+ACHIEVEMENT_HOSPITAL_BED = cure yourself in the hospital
+ACHIEVEMENT_USE_ATM = use an ATM
+ACHIEVEMENT_PURCHASE_PROPERTY = purchase your first property
+ACHIEVEMENT_RENT_PROPERTY = rent a property
+ACHIEVEMENT_PURCHASE_BUSINESS = purchase your first business
+ACHIEVEMENT_GUN_LICENSE = get weapons license
+ACHIEVEMENT_INTRO = watch introduction
+
+[server_properties]
+MESSAGE_INFO_PROPERTY_RENT_EXPIRED = {FF4040}The rental contract of property (%d) has ended.
+
+[player_task]
+MESSAGE_LEVEL_UP = Congratulations, your level now is %d.
+MESSAGE_1_PTASK = You are hungry and thirsty, eat and drink something.
+MESSAGE_2_PTASK = You are thirsty, drink something.
+MESSAGE_3_PTASK = You are hungry, eat something.
+
+[properties]
+TEXTDRAW_TOUR_MESSAGE = You have ~y~%d seconds ~w~left of the visit.
+TEXTDRAW_TOUR_ENDED = ~r~The visit is over.
+
+[pstats]
+TEXTDRAW_HUNGRY = Hungry
+TEXTDRAW_THIRST = Thirst
+TEXTDRAW_STATS = Level_%d\nExperience_%.2f/%d
+
+[tutorial]
+TUTORIAL_1_OBJECTIVE = ~w~Press ~y~%s ~w~to open the inventory
+TUTORIAL_2_OBJECTIVE = ~w~Press ~y~ESC ~w~to close the inventory
+TUTORIAL_3_OBJECTIVE = ~w~Keep ~y~%s ~w~to see your statistics
+TUTORIAL_4_OBJECTIVE = ~w~Get on a ~y~taxi ~w~or ~y~bike
+TUTORIAL_5_OBJECTIVE = ~w~Go to the ~y~electronics store
+TUTORIAL_6_OBJECTIVE = ~w~Buy a ~y~phone
+TUTORIAL_7_OBJECTIVE = ~w~Buy a ~y~GPS
+TUTORIAL_8_OBJECTIVE = ~w~Use the ~y~arrows ~w~to move through the menu
+TUTORIAL_9_OBJECTIVE = ~w~Press ~y~%s ~w~to advance
+TUTORIAL_10_OBJECTIVE = ~w~Press ~y~%s ~w~to go back
+TUTORIAL_11_OBJECTIVE = ~w~Enable the ~y~minimap
+TUTORIAL_12_OBJECTIVE = ~w~Press ~y~ESC ~w~to close the GPS
+TUTORIAL_13_OBJECTIVE = ~w~Use ~y~/engine ~w~to turn the engine on or off
+TUTORIAL_14_OBJECTIVE = ~w~Use ~y~/open ~w~or ~y~/close ~w~for vehicle doors
+TUTORIAL_15_OBJECTIVE = ~w~Use ~y~/lights ~w~to turn lights on or off
+TUTORIAL_16_OBJECTIVE = ~w~Use ~y~/radio ~w~to change radio station
+
+TUTORIAL_1_MESSAGE = ~w~Exit the airport and get on a ~y~bike ~w~or a ~y~taxi ~w~to continue
+TUTORIAL_2_MESSAGE = Follow the checkpoints util you reach the ~y~electronics store
+TUTORIAL_3_MESSAGE = The taxi will take you to the ~y~electronics store, ~w~don't get off
+TUTORIAL_4_MESSAGE = The ~y~electronics store ~w~is on the first floor
+TUTORIAL_5_MESSAGE = You can use ~y~/gps ~w~command for use the GPS, you should ~g~enable the minimap
+TUTORIAL_6_MESSAGE = You can use ~y~/phone ~w~for use the phone
+TUTORIAL_7_MESSAGE = ~g~Congratulations, ~w~you have completed the introduction tutorial, you should locate the ~y~driving school ~w~in the ~y~GPS ~w~and get the driver license
+TUTORIAL_8_MESSAGE = You can locate jobs in the ~y~GPS, ~w~you should work to get some ~g~money
+TUTORIAL_9_MESSAGE = Use ~y~/clothes ~w~command to change your clothes
+TUTORIAL_10_MESSAGE = Use ~y~/open ~w~for open vehicle doors and ~y~/close ~w~for close it, but, ~r~this vehicle doesn't have doors
+
+[infomsg_render]
+TEXTDRAW_ENTRANCE_1_MSG = Press ~y~%s ~w~to enter
+TEXTDRAW_ENTRANCE_2_MSG = Schedule: %02d:00 - %02d:00\n~w~Press ~y~%s ~w~to enter
+TEXTDRAW_INTERIOR_MSG = Press ~y~%s ~w~to exit
+TEXTDRAW_ATM_MSG = Press ~y~%s ~w~to use the ATM
+TEXTDRAW_HOSPITAL_BED_MSG = This bed is free, pres ~y~%s ~w~to get health
+TEXTDRAW_BANK_MSG = Press ~y~%s ~w~to perform an operation
+TEXTDRAW_SVEHS_MSG = Press ~y~%s ~w~to see the vehicle catalog or sell a vehicle
+TEXTDRAW_GAS_MSG = Press ~y~%s ~w~to refuel\n~p~%d$/liter
+TEXTDRAW_DRIVING_SCHOOL_MSG = Press ~y~%s ~w~to do the exam for %d$
+TEXTDRAW_PROPERTY_MSG = Press ~y~%s ~w~to enter
+TEXTDRAW_BSALE_MSG = Press ~y~%s ~w~for buy
+TEXTDRAW_BUSINESS_1_MSG = Press ~y~%s ~w~to enter
+TEXTDRAW_BUSINESS_2_MSG = Schedule: %02d:00 - %02d:00\n~w~Press ~y~%s ~w~to enter
+TEXTDRAW_JOB_1_MSG = Press ~y~%s ~w~for leave the job
+TEXTDRAW_JOB_2_MSG = Press ~y~%s ~w~for job here
+TEXTDRAW_INTEREST_MSG = Press ~y~%s ~w~for see the places of interest
+TEXTDRAW_GUNSMITH_MSG = Press ~y~%s ~w~to assemble
+TEXTDRAW_GUN_LICENSE_MSG = Press ~y~%s ~w~to do the exam for %d$
+TEXTDRAW_ACTION_MSG = Press ~y~%s ~w~to interact
+TEXTDRAW_ENV_AREA_TYPE_DANCE = Press ~y~%s ~w~to dance
+TEXTDRAW_ENV_AREA_TYPE_BED = Press ~y~%s ~w~to sleep
+TEXTDRAW_ENV_AREA_TYPE_SEAT = Press ~y~%s ~w~to sit down
+TEXTDRAW_ENV_AREA_TYPE_PROSTITUTE_MONEY = Press ~y~%s ~w~to throw some bills
+TEXTDRAW_ENV_DEFAULT = Press ~y~%s ~w~to interact
+
+[label_render]
+ENTRANCE_1_NAME = Hospital West Haven
+ENTRANCE_2_NAME = Hospital Ocean View
+ENTRANCE_3_NAME = El Banco Corrupto Grande
+ENTRANCE_4_NAME = Bank
+ENTRANCE_5_NAME = Police Washington Beach
+ENTRANCE_6_NAME = Police Downtown
+ENTRANCE_7_NAME = North Point Mall
+ENTRANCE_8_NAME = Driving school
+ENTRANCE_9_NAME = Truckers
+ENTRANCE_10_NAME = Real estate
+ENTRANCE_11_NAME = Truckers
+ENTRANCE_12_NAME = Factory
+
+LABEL_ENTRANCE = {EEEE88}[Entrance %d]\n{FFFFFF}%s
+LABEL_INTERIOR = Exit
+LABEL_1_PROPERTY = {39a03b}[Rental %d]\n{FFFFFF}Owner: %s\nRent expires: %s
+LABEL_2_PROPERTY = {39a03b}[Property %d]\n{FFFFFF}Owner: %s
+LABEL_3_PROPERTY = {39a03b}[Rental %d]\n{FFFFFF}Level: %d\nPrice: %d$/day\n\nType {39a03b}/rent {FFFFFF}to rent it
+LABEL_4_PROPERTY = {39a03b}[Property %d]\n{FFFFFF}Level: %d\nPrice: %d$\n\nType {39a03b}/purchase {FFFFFF}to purchase it
+LABEL_INTERIOR_PROPERTY = Exit
+LABEL_RENT_VEHICLE = {f4e242}[Rent vehicle %d]\n{FFFFFF}%s\n\nPrice: %d$\nLevel: %d
+LABEL_USED_VEH = [%d] {ed7be3}%s\n\n{ffffff}Price: %d$\nLevel: %d\nKilometers: %.0f Kms
+LABEL_INTERIOR_BUSINESS = Exit
+LABEL_1_BUSINESS = {f963e5}[Business %d]\n{FFFFFF}%s\n\nOwner: %s
+LABEL_2_BUSINESS = {f963e5}[Business %d]\n{FFFFFF}%s\n\nLevel: %d\nPrice: %d$\n\nType {f963e5}/purchase {FFFFFF}to purchase it
+LABEL_1_JOB = {f4c542}[Job %d]\n{FFFFFF}%s\n\nRequired level: %d\nRequired job level: %d
+LABEL_2_JOB = {f4c542}[Job %d]\n{FFFFFF}%s\n\nRequired level: %d
+LABEL_3_JOB = {f4c542}[Job %d]\n{FFFFFF}%s (%d)\n\nRequired level: %d\nRequired job level: %d
+LABEL_4_JOB = {f4c542}[Job %d]\n{FFFFFF}%s (%d)\n\nRequired level: %d
+LABEL_INTEREST_POINTS = {f4d942}Places of interest
+LABEL_CARWORKSHOP = {f4d942}Mechanic
