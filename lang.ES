@@ -1005,35 +1005,46 @@ DIALOG_HELP_YES = >>
 DIALOG_HELP_NO = X
 
 DIALOG_HELP_GENERAL_CAPTION = Ayuda general
-DIALOG_HELP_GENERAL_BODY_1 = El servidor está en fase BETA por lo que puede contener errores.\nUn día en el juego dura tres horas reales.\nPara reportar a un jugador usa /reportar.\n
-DIALOG_HELP_GENERAL_BODY_2 = Utiliza el comando /duda para preguntar por el canal de dudas.\n\nPara más información visita %s.
+DIALOG_HELP_GENERAL_BODY_1 = El servidor está en fase BETA por lo que puede contener errores.\n
+DIALOG_HELP_GENERAL_BODY_2 = Un día en el juego dura tres horas reales.\n
+DIALOG_HELP_GENERAL_BODY_3 = Para reportar a un jugador usa /reportar.\n
+DIALOG_HELP_GENERAL_BODY_4 = Utiliza el comando /duda para preguntar por el canal de dudas.\n\n
+DIALOG_HELP_GENERAL_BODY_5 = Para más información visita %s.
 DIALOG_HELP_GENERAL_YES = Cerrar
 
 DIALOG_HELP_CHARACTER_CAPTION = Ayuda personaje
-DIALOG_HELP_CHARACTER_BODY_1 = Puedes comprar ropa y accesorios para tu personaje.\nLos accesorios deben ser ajustados por cada ropa.\n
-DIALOG_HELP_CHARACTER_BODY_2 = Puedes cambiar de persona desde el /menu en la parte de ajustes.
+DIALOG_HELP_CHARACTER_BODY_1 = Puedes comprar ropa y accesorios para tu personaje.\n
+DIALOG_HELP_CHARACTER_BODY_2 = Los accesorios deben ser ajustados por cada ropa.\n
+DIALOG_HELP_CHARACTER_BODY_3 = Puedes cambiar de persona desde el /menu en la parte de ajustes.
 DIALOG_HELP_CHARACTER_YES = Cerrar
 
 DIALOG_HELP_PROPERTIES_CAPTION = Ayuda propiedades
-DIALOG_HELP_PROPERTIES_BODY_1 = Puedes tener %d propiedades, compradas o alquiladas.\nUtiliza el comando /puerta apra abrir o cerrar una puerta.\n
-DIALOG_HELP_PROPERTIES_BODY_2 = Para vender tu propiedad ve a una inmobiliaria.\nPara dejar de alquilar una propiedad borra la llave de tu inventario.\n
-DIALOG_HELP_PROPERTIES_BODY_3 = Cuando vendas una casa se borrarán todas las llaves.
+DIALOG_HELP_PROPERTIES_BODY_1 = Puedes tener %d propiedades, compradas o alquiladas.\n
+DIALOG_HELP_PROPERTIES_BODY_2 = Utiliza el comando /puerta apra abrir o cerrar una puerta.\n
+DIALOG_HELP_PROPERTIES_BODY_3 = Para vender tu propiedad ve a una inmobiliaria.\n
+DIALOG_HELP_PROPERTIES_BODY_4 = Para dejar de alquilar una propiedad borra la llave de tu inventario.\n
+DIALOG_HELP_PROPERTIES_BODY_5 = Cuando vendas una casa se borrarán todas las llaves.
 DIALOG_HELP_PROPERTIES_YES = Cerrar
 
 DIALOG_HELP_VEHICLES_CAPTION = Ayuda vehículos
-DIALOG_HELP_VEHICLES_BODY_1 = Puedes tener %d vehiculos, comprados o alquilados.\nPara vender tu vehículo ve a un concesionario.\n
-DIALOG_HELP_VEHICLES_BODY_2 = Para dejar de alquilar un vehículo borra la llave de tu inventario.\nCuando vendas un vehículo se borrarán todas las llaves.\n
-DIALOG_HELP_VEHICLES_BODY_3 = Ve a un taller para reparar o tunear tu vehículo.
+DIALOG_HELP_VEHICLES_BODY_1 = Puedes tener %d vehiculos, comprados o alquilados.\n
+DIALOG_HELP_VEHICLES_BODY_2 = Para vender tu vehículo ve a un concesionario.\n
+DIALOG_HELP_VEHICLES_BODY_3 = Para dejar de alquilar un vehículo borra la llave de tu inventario.\n
+DIALOG_HELP_VEHICLES_BODY_4 = Cuando vendas un vehículo se borrarán todas las llaves.\n
+DIALOG_HELP_VEHICLES_BODY_5 = Ve a un taller para reparar o tunear tu vehículo.
 DIALOG_HELP_VEHICLES_YES = Cerrar
 
 DIALOG_HELP_BUSINESS_CAPTION = Ayuda negocios
-DIALOG_HELP_BUSINESS_BODY_1 = Puedes tener %d negocios.\nPara vender tu negocio ve a una inmobiliaria.\nCuando vendas un negocio se borrarán todas las llaves.\n
-DIALOG_HELP_BUSINESS_BODY_2 = Utiliza el comando /negocio dentro de tu negocio para administrarlo.
+DIALOG_HELP_BUSINESS_BODY_1 = Puedes tener %d negocios.\n
+DIALOG_HELP_BUSINESS_BODY_2 = Para vender tu negocio ve a una inmobiliaria.\n
+DIALOG_HELP_BUSINESS_BODY_3 = Cuando vendas un negocio se borrarán todas las llaves.\n
+DIALOG_HELP_BUSINESS_BODY_4 = Utiliza el comando /negocio dentro de tu negocio para administrarlo.
 DIALOG_HELP_BUSINESS_YES = Cerrar
 
 DIALOG_HELP_JOBS_CAPTION = Ayuda trabajos
-DIALOG_HELP_JOBS_BODY_1 = Los trabajos son temporales.\nLa experiencia y nivel de los trabajos se guardan.\n
-DIALOG_HELP_JOBS_BODY_2 = Utiliza el comando /trabajos para ver tu experiencia en los trabajos.
+DIALOG_HELP_JOBS_BODY_1 = Los trabajos son temporales.\n
+DIALOG_HELP_JOBS_BODY_2 = La experiencia y nivel de los trabajos se guardan.\n
+DIALOG_HELP_JOBS_BODY_3 = Utiliza el comando /trabajos para ver tu experiencia en los trabajos.
 DIALOG_HELP_JOBS_YES = Cerrar
 
 [help_channel]

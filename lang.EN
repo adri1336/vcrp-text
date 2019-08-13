@@ -1005,35 +1005,46 @@ DIALOG_HELP_YES = >>
 DIALOG_HELP_NO = X
 
 DIALOG_HELP_GENERAL_CAPTION = General
-DIALOG_HELP_GENERAL_BODY_1 = The server is in BETA phase so it may contain errors.\nA day in the game lasts three real hours.\nTo report a player use /report.\n
-DIALOG_HELP_GENERAL_BODY_2 = Use the command /doubt to ask for the doubt channel.\n\nFor more information visit %s.
+DIALOG_HELP_GENERAL_BODY_1 = The server is in BETA phase so it may contain errors.\n
+DIALOG_HELP_GENERAL_BODY_2 = A day in the game lasts three real hours.\n
+DIALOG_HELP_GENERAL_BODY_3 = To report a player use /report.\n
+DIALOG_HELP_GENERAL_BODY_4 = Use the command /doubt to ask for the doubt channel.\n\n
+DIALOG_HELP_GENERAL_BODY_5 = For more information visit %s.
 DIALOG_HELP_GENERAL_YES = Close
 
 DIALOG_HELP_CHARACTER_CAPTION = Character
-DIALOG_HELP_CHARACTER_BODY_1 = You can buy clothes and accessories for your character.\nToys must be adjusted for each clothing.\n
-DIALOG_HELP_CHARACTER_BODY_2 = You can change your character using /menu in the settings part.
+DIALOG_HELP_CHARACTER_BODY_1 = You can buy clothes and accessories for your character.\n
+DIALOG_HELP_CHARACTER_BODY_2 = Toys must be adjusted for each clothing.\n
+DIALOG_HELP_CHARACTER_BODY_3 = You can change your character using /menu in the settings part.
 DIALOG_HELP_CHARACTER_YES = Close
 
 DIALOG_HELP_PROPERTIES_CAPTION = Properties
-DIALOG_HELP_PROPERTIES_BODY_1 = You can have %d properties, purchased or rented.\nUse the command /door to open or close a door.\n
-DIALOG_HELP_PROPERTIES_BODY_2 = o sell your property go to a real estate.\nTo stop renting a property, delete the key of your inventory.\n
-DIALOG_HELP_PROPERTIES_BODY_3 = When you sell a house all the keys will be deleted.
+DIALOG_HELP_PROPERTIES_BODY_1 = You can have %d properties, purchased or rented.\n
+DIALOG_HELP_PROPERTIES_BODY_2 = Use the command /door to open or close a door.\n
+DIALOG_HELP_PROPERTIES_BODY_3 = o sell your property go to a real estate.\n
+DIALOG_HELP_PROPERTIES_BODY_4 = To stop renting a property, delete the key of your inventory.\n
+DIALOG_HELP_PROPERTIES_BODY_5 = When you sell a house all the keys will be deleted.
 DIALOG_HELP_PROPERTIES_YES = Close
 
 DIALOG_HELP_VEHICLES_CAPTION = Vehicles
-DIALOG_HELP_VEHICLES_BODY_1 = You can have %d vehicles, purchased or rented.\nTo sell your vehicle go to a dealer.\n
-DIALOG_HELP_VEHICLES_BODY_2 = To stop renting a vehicle delete the key of your inventory.\nWhen you sell a vehicle all the keys will be deleted.\n
-DIALOG_HELP_VEHICLES_BODY_3 = Go to a workshop to repair or tune your vehicle.
+DIALOG_HELP_VEHICLES_BODY_1 = You can have %d vehicles, purchased or rented.\n
+DIALOG_HELP_VEHICLES_BODY_2 = To sell your vehicle go to a dealer.\n
+DIALOG_HELP_VEHICLES_BODY_3 = To stop renting a vehicle delete the key of your inventory.\n
+DIALOG_HELP_VEHICLES_BODY_4 = When you sell a vehicle all the keys will be deleted.\n
+DIALOG_HELP_VEHICLES_BODY_5 = Go to a workshop to repair or tune your vehicle.
 DIALOG_HELP_VEHICLES_YES = Close
 
 DIALOG_HELP_BUSINESS_CAPTION = Business
-DIALOG_HELP_BUSINESS_BODY_1 = You can have %d business.\nTo sell your business go to a real estate.\nWhen you sell a business all the keys will be deleted.\n
-DIALOG_HELP_BUSINESS_BODY_2 = Use the /business command within your business to manage it.
+DIALOG_HELP_BUSINESS_BODY_1 = You can have %d business.\n
+DIALOG_HELP_BUSINESS_BODY_2 = To sell your business go to a real estate.\n
+DIALOG_HELP_BUSINESS_BODY_3 = When you sell a business all the keys will be deleted.\n
+DIALOG_HELP_BUSINESS_BODY_4 = Use the /business command within your business to manage it.
 DIALOG_HELP_BUSINESS_YES = Close
 
 DIALOG_HELP_JOBS_CAPTION = Jobs
-DIALOG_HELP_JOBS_BODY_1 = Jobs are temporary.\nThe experience and level of the jobs are saved.\n
-DIALOG_HELP_JOBS_BODY_2 = Use /jobs command to see your jobs experience.
+DIALOG_HELP_JOBS_BODY_1 = Jobs are temporary.\n
+DIALOG_HELP_JOBS_BODY_2 = The experience and level of the jobs are saved.\n
+DIALOG_HELP_JOBS_BODY_3 = Use /jobs command to see your jobs experience.
 DIALOG_HELP_JOBS_YES = Close
 
 [help_channel]

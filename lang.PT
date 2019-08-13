@@ -498,7 +498,7 @@ MESSAGE_ERROR_SYNTAX = {ERROR}A syntax não é válida.
 [menu]
 TEXTDRAW_PLAY = jogar
 TEXTDRAW_INFO = info
-TEXTDRAW_SETTINGS = configurações
+TEXTDRAW_SETTINGS = config
 TEXTDRAW_QUIT = sair
 
 DIALOG_SETTINGS_CAPTION = Configurações
@@ -1005,35 +1005,46 @@ DIALOG_HELP_YES = >>
 DIALOG_HELP_NO = X
 
 DIALOG_HELP_GENERAL_CAPTION = Ajuda geral
-DIALOG_HELP_GENERAL_BODY_1 = O servidor está em fase BETA por isso pode conter erros.\nUm dia no jogo são três horas reais.\nPara reportar um jugador usa /reportar.\n
-DIALOG_HELP_GENERAL_BODY_2 = Utilize o comando /duda para perguntar alguma dúvida pelo canal de dúvidas.\n\nPara mais informações visite %s.
+DIALOG_HELP_GENERAL_BODY_1 = O servidor está em fase BETA por isso pode conter erros.\n
+DIALOG_HELP_GENERAL_BODY_2 = Um dia no jogo são três horas reais.\n
+DIALOG_HELP_GENERAL_BODY_3 = Para reportar um jugador usa /reportar.\n
+DIALOG_HELP_GENERAL_BODY_4 = Utilize o comando /duda para perguntar alguma dúvida pelo canal de dúvidas.\n\n
+DIALOG_HELP_GENERAL_BODY_5 = Para mais informações visite %s.
 DIALOG_HELP_GENERAL_YES = Fechar
 
 DIALOG_HELP_CHARACTER_CAPTION = Ajuda personagem
-DIALOG_HELP_CHARACTER_BODY_1 = Podes comprar roupa e acessórios para teu personagem.\nOs acessórios devem ser ajustados para cada roupa.\n
-DIALOG_HELP_CHARACTER_BODY_2 = Você pode mudar de personagem do /menu na parte de configurações.
+DIALOG_HELP_CHARACTER_BODY_1 = Podes comprar roupa e acessórios para teu personagem.\n
+DIALOG_HELP_CHARACTER_BODY_2 = Os acessórios devem ser ajustados para cada roupa.\n
+DIALOG_HELP_CHARACTER_BODY_3 = Você pode mudar de personagem do /menu na parte de configurações.
 DIALOG_HELP_CHARACTER_YES = Fechar
 
 DIALOG_HELP_PROPERTIES_CAPTION = Ajuda propriedades
-DIALOG_HELP_PROPERTIES_BODY_1 = Você pode ter %d propiedades, compradas ou alugadas.\nUtiliza o comando /puerta para abrir ou fechar uma porta.\n
-DIALOG_HELP_PROPERTIES_BODY_2 = Para vender sua propriedade, vá a um imóvel.\nPara deixar de alugar uma propriedade, elimine a chave do seu inventário.\n
-DIALOG_HELP_PROPERTIES_BODY_3 = Quando você vende uma casa, todas as chaves serão deletadas.
+DIALOG_HELP_PROPERTIES_BODY_1 = Você pode ter %d propiedades, compradas ou alugadas.\n
+DIALOG_HELP_PROPERTIES_BODY_2 = Utiliza o comando /puerta para abrir ou fechar uma porta.\n
+DIALOG_HELP_PROPERTIES_BODY_3 = Para vender sua propriedade, vá a um imóvel.\n
+DIALOG_HELP_PROPERTIES_BODY_4 = Para deixar de alugar uma propriedade, elimine a chave do seu inventário.\n
+DIALOG_HELP_PROPERTIES_BODY_5 = Quando você vende uma casa, todas as chaves serão deletadas.
 DIALOG_HELP_PROPERTIES_YES = Fechar
 
 DIALOG_HELP_VEHICLES_CAPTION = Ajuda veículos
-DIALOG_HELP_VEHICLES_BODY_1 = Você pode ter %d veiculos, comprados ou alugados.\nPara vender o seu veículo vá até uma concessionária.\n
-DIALOG_HELP_VEHICLES_BODY_2 = Para deixar de alugar um veículo, elimine a chave do seu inventário.\nQuando você vende um veículo, todas as chaves do veículo serão apagadas.\n
-DIALOG_HELP_VEHICLES_BODY_3 = Vá a uma oficina para consertar ou modificar seu veículo.
+DIALOG_HELP_VEHICLES_BODY_1 = Você pode ter %d veiculos, comprados ou alugados.\n
+DIALOG_HELP_VEHICLES_BODY_2 = Para vender o seu veículo vá até uma concessionária.\n
+DIALOG_HELP_VEHICLES_BODY_3 = Para deixar de alugar um veículo, elimine a chave do seu inventário.\n
+DIALOG_HELP_VEHICLES_BODY_4 = Quando você vende um veículo, todas as chaves do veículo serão apagadas.\n
+DIALOG_HELP_VEHICLES_BODY_5 = Vá a uma oficina para consertar ou modificar seu veículo.
 DIALOG_HELP_VEHICLES_YES = Fechar
 
 DIALOG_HELP_BUSINESS_CAPTION = Ajuda empresas
-DIALOG_HELP_BUSINESS_BODY_1 = Você pode ter %d empresas.\nPara vender a sua empresa, vá a um mercado imobiliário.\nQuando você vende uma empresa, todas as chaves são apagadas.\n
-DIALOG_HELP_BUSINESS_BODY_2 = Utilize o comando /negocio dentro da empresa para o administrar.
+DIALOG_HELP_BUSINESS_BODY_1 = Você pode ter %d empresas.\n
+DIALOG_HELP_BUSINESS_BODY_2 = Para vender a sua empresa, vá a um mercado imobiliário.\n
+DIALOG_HELP_BUSINESS_BODY_3 = Quando você vende uma empresa, todas as chaves são apagadas.\n
+DIALOG_HELP_BUSINESS_BODY_4 = Utilize o comando /negocio dentro da empresa para o administrar.
 DIALOG_HELP_BUSINESS_YES = Fechar
 
 DIALOG_HELP_JOBS_CAPTION = Ajuda empregos
-DIALOG_HELP_JOBS_BODY_1 = Os empregos são temporais.\nA experiência e o nível de emprego são salvos.\n
-DIALOG_HELP_JOBS_BODY_2 = Utilize o comando /trabalhos para ver sua experiência de trabalho.
+DIALOG_HELP_JOBS_BODY_1 = Os empregos são temporais.\n
+DIALOG_HELP_JOBS_BODY_2 = A experiência e o nível de emprego são salvos.\n
+DIALOG_HELP_JOBS_BODY_3 = Utilize o comando /trabalhos para ver sua experiência de trabalho.
 DIALOG_HELP_JOBS_YES = Fechar
 
 [help_channel]
